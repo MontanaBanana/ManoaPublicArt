@@ -1,0 +1,249 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<title>Manoa Public Art</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta charset="utf-8" /> 
+
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/fonts.css" />
+<link rel="stylesheet" href="css/blackfeet.css" />
+<!--<link rel="stylesheet" href="css/jquery.modal.css" />-->
+
+<script type="text/javascript">
+    window.onerror = function(message, url, lineNumber) {
+        alert("Error: "+message+" in "+url+" at line "+lineNumber);
+        //console.log("Error: "+message+" in "+url+" at line "+lineNumber);
+    }
+</script>
+
+<script src="phonegap.js" type="text/javascript"></script>
+<script src="cordova.js" type="text/javascript"></script>
+<script src="geolocation.js" type="text/javascript"></script>
+
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+
+<script src="js/geo.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/latlon.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/photos.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="js/content.js" type="text/javascript"></script>
+<script src="js/blackfeet.js" type="text/javascript"></script>
+
+<script type="text/javascript" charset="utf-8">
+
+function onLoad() {
+    document.addEventListener("deviceready", onDeviceReady, false);
+}
+
+function onDeviceReady() {
+	// show the splash screen if it's not already showing (as it will in iOS)
+	if(!is_ios){
+		navigator.splashscreen.show();
+	}
+	
+	document.addEventListener('resume', function(e){
+        // prevent app from sleeping
+		//window.plugins.insomnia.keepAwake();
+    }, false);
+
+    document.addEventListener('pause', function(e){
+        //sendAction('Paused App', 'success');
+		if(typeof WatchID !== 'undefined'){
+			navigator.geolocation.clearWatch(WatchID); 
+		}
+		
+		// app is closed or in background, allow the device to sleep until it's re-opened
+		//window.plugins.insomnia.allowSleepAgain();
+    }, false);
+
+    document.addEventListener('backbutton', function(e){
+        //sendAction('Pressed Back Button', 'success');
+        navigator.app.backHistory();
+    }, false);
+    
+    $(document).ready(function() {
+	    initializeLayout();
+    });
+}
+</script>
+
+</head>
+<body onload="onLoad()">
+
+<header>
+	<div class="back"><i class="fa fa-angle-left"></i></div>
+	<h1>Manoa Public Art</h1>
+</header>
+
+<div id="loading"><div class="refresh-icon continuous-rotation">&#128260;</div></div>
+
+<!-- Getting location screen -->
+<div class="parent" id="initial-screen">
+	<div class="position-bottom">
+		<div class="getting-location">
+			<img src="images/transparent-loading-spinner.png" alt="Loading" class="loading_gif">
+			<i class="fa fa-times-circle"></i> Getting your current location...
+		</div>
+	</div>
+</div>
+
+<!-- Offsite warning screen -->
+<div class="parent hidden" id="offsite-screen">
+	<div class="position-bottom">
+		<div class="warning">
+			For full app features, please start at<br>
+			<i class="fa fa-compass"></i> UH Manoa
+		</div>
+		<div class="controls">
+			<div class="continue">Continue <i class="fa fa-angle-right"></i></div>
+		</div>
+	</div>
+</div>
+
+<!-- Landing screen with path boxes -->
+<div class="parent hidden" id="orientation-screen">
+	<div class="centerpiece">
+		<h2>Pick your path:</h2>
+	</div>
+	
+	<!-- stories list is populated by the pathContent object in content.js -->
+	<div class="stories"></div>
+
+	<div class="intro">
+		<h2>Background</h2>
+		<p>Hawai‘i was the first state in the country to adopt a "Percent for Art" program, requiring at least 1 percent of all money going toward public construction projects to be spent on public art. The Manoa neighborhood, and the University of Hawai‘i at Manoa in particular, has been a major beneficiary of this law. This mobile app, in turn, is dedicated to promoting public discourse about the public art in Manoa.</p>
+
+		<h2>Credits</h2>
+		<p>
+			<strong>Project Manager:</strong> Dr. Brett Oppegaard (University of Hawai‘i)<br /><br />
+
+			<strong>Content design and production by graduate students:</strong> Kapiolani Ching and Godwin Polendey (Air, Water, Earth, and Fire); Mari Galiher and Cynthia Arata (Varney Circle Fountain); and Marc Arakaki (Founders Gate); with additional reporting and photography by undergraduate student Jessica Homrich.<br /><br />
+
+			<strong>Primary photography by:</strong> Godwin Polendey and Jessica Homrich, with historical photographs provided by the University of Hawai‘i Archives, through its Digital and Digitized Collections.<br /><br />
+
+			<strong>Mobile design and development:</strong> Montana Banana Web and Mobile Development<br /><br />
+
+			<strong>Information sources included:</strong> The University of Hawai‘i's Campus Art brochure, its Campus Heritage Report, and "Building a Rainbow," edited by Victor Kobayashi.<br /><br />
+			
+			<strong>Project sponsor:</strong> Malama Manoa.
+		</p>
+	</div>
+</div>
+
+<!-- Detail page template, holder for all detail pages (see content.js for content) -->
+<div class="parent hidden detail" id="">
+	<div class="centerpiece">
+		<h2>Share your story</h2>
+	</div>
+	
+	<!--<div class="panel details"></div>-->
+	
+	<div class="panel video">
+		<div class="play-button" onclick=""><img src="images/play-button.png" alt="Click to play video" /></div>
+		<div class="details"></div>
+		<!--<div class="caption"></div>-->
+	</div>
+
+	<div class="panel gallery">	
+		<div class="intro" style="margin-top: 65px; margin-bottom: 10px;" onclick="$('#location').click();"><h2 class="location-text">SHARE YOUR STORY</h2></div>
+
+		<div class="images">
+
+		</div>
+	</div>
+	
+	<div class="panel location">
+		<div class="location-text"></div>
+		
+		<div class="sharing-buttons" style="text-align:center;">
+			<div class="map-link">
+				<i class="fa fa-map-marker"></i> Directions
+			</div>
+		</div><div style="clear:both;"></div>
+	</div>
+	
+	<div class="panel sharing">
+		<div class="sharing-text"></div>
+		
+		<div class="sharing-buttons">
+			<div onclick="captureImage();">
+				<i class="fa fa-picture-o"></i> Photo
+			</div>
+			<div onclick="captureVideo();">
+				<i class="fa fa-video-camera"></i> Video
+			</div>
+			<div onclick="captureAudio();">
+				<i class="fa fa-volume-up"></i> Audio
+			</div>
+			<div onclick="captureText()">
+				<i class="fa fa-file-text"></i> Text
+			</div>
+			<!--
+			<div onclick="window.plugins.socialsharing.share('Share your story here...', null, null, siteUrl);">
+				Text
+			</div>
+			-->
+		</div><div style="clear:both;"></div>
+		<div class="caption">
+			<i class="fa fa-question-circle"></i> If you have a social network you wish to share to that does not 
+			show up here, be sure that the app is installed and configured on your device.
+		</div>
+	</div>
+
+	<div class="panel postcard">
+		<div class="intro">
+			<h2>MOVE THE GATES</h2>
+			<p style="margin-bottom: 18px;">
+            Look at the gates and imagine where they better would serve the campus, as an entryway to the university and its ideals. Walk to that place, and take a photograph with the gates in their new position. If you like what you see, share your idea via social media. The photo you take will be saved to your phone with the gates superimposed on top.
+			</p>
+		</div>
+
+		<div class="postcard block">
+			<table cellspacing="0" cellpadding="0" border="0" width="90%" style="margin: 10px;">
+				<tr>
+					<td width="50%" align="left">
+						<div class="choosePicture" id=""><span>&#127748;</span> Select</div>
+					</td>
+					<td align="right">
+						<div class="takePicture" id=""><span>&#128247;</span> Capture</div>
+					</td>
+				</tr>
+			</table>
+			<div style="clear:both"></div>
+			<div class="sharePicture" id=""><span>&#128101;</span> Share Postcard</div>
+			<div style="clear:both"></div>
+			
+			<div align="center">
+				<img src="images/fpo-postcard.png" class="postcard-frame" style="width: 90%; display: none;" id="postcard-picture" alt="">
+			</div>
+			
+			<canvas width="90%" id="canvas" style="display:none;"></canvas>
+			
+		</div>
+
+	</div>
+</div>
+
+<footer class="hidden">
+	<div class="controls buttons">
+		<i class="fa fa-home" data-id="home" data-name=""></i>
+		<!--<i class="fa fa-newspaper-o" data-id="details" data-name=""></i>-->
+		<i class="fa fa-file-image-o" data-id="gallery" data-name=""></i>
+		<i class="fa fa-compass" id="location" data-id="location" data-name=""></i>
+		<i class="fa fa-share-square-o" id="sharing" data-id="sharing" data-name=""></i>
+	</div>
+</footer>
+
+<!--
+<i class="fa fa-home"></i>
+<i class="fa fa-compass"></i>
+<i class="fa fa-times-circle"></i>
+<i class="fa fa-location-arrow"></i>
+<i class="fa fa-newspaper-o"></i>
+<i class="fa fa-video-camera"></i>
+<i class="fa fa-share-square-o"></i>
+-->
+
+</body>
+</html>

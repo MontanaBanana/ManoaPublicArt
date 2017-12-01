@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Conv_Copperplate Gothic Bold';
+	src: url('../fonts/Copperplate Gothic Bold.eot');
+	src: local('☺'), url('../fonts/Copperplate Gothic Bold.woff') format('woff'), url('../fonts/Copperplate Gothic Bold.ttf') format('truetype'), url('../fonts/Copperplate Gothic Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
