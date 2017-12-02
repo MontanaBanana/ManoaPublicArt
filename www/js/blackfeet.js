@@ -455,7 +455,7 @@ function captureError(error){
 function captureImage(){
 	// Launch device camera application, allowing user to capture up to 1 image
     sharingMediaType = 'photo';
-	navigator.device.capture.captureImage(captureSuccess, captureError, {limit: 1});
+	window.navigator.device.capture.captureImage(captureSuccess, captureError, {limit: 1});
 	/*
 	navigator.camera.getPicture( captureSuccess, captureError, { 
 		quality : 75,
@@ -471,13 +471,13 @@ function captureImage(){
 function captureVideo(){
     // Launch video application
     sharingMediaType = 'video';
-    navigator.device.capture.captureVideo(captureSuccess, captureError, {limit: 1, sourceType: 0, mediaType: 1});
+    window.navigator.device.capture.captureVideo(captureSuccess, captureError, {limit: 1, sourceType: 0, mediaType: 1});
 }
 
 function captureAudio(){
 	// Launch audio recording application
 	sharingMediaType = 'audio';
-	navigator.device.capture.captureAudio(captureSuccess, captureError,  {limit: 1});
+	window.navigator.device.capture.captureAudio(captureSuccess, captureError,  {limit: 1});
 }
 
 function captureText(){
