@@ -62,6 +62,7 @@
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-targetSdkVersion" value="23" />
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <preference name="phonegap-version" value="cli-8.0.0" />
 
     <plugin name="cordova-plugin-device" spec="~1.1.7" />
     <plugin name="cordova-plugin-file" spec="~4.3.3" />
