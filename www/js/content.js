@@ -275,8 +275,8 @@ pathContent['monolith'] = {
     lon: 			-157.8160544
 };
 
-pathContent['relation'] = {
-    name:		'Relation of Man and Nature',
+pathContent['relation_of_man_and_nature'] = {
+    name:		'Man and Nature',
     details: 		'',
     //caption: 		'',
     video_image: 	'',
@@ -290,8 +290,8 @@ pathContent['relation'] = {
     ],
     location: 		'Bachman Pl, Honolulu, HI 96822, USA',
     sharing: 		'Share your thoughts.',
-    thumbnail: 		'images/relation/thumbnail.jpg',
-    centerpiece: 	'images/relation/thumbnail.jpg',
+    thumbnail: 		'images/relation_of_man_and_nature/thumbnail.jpg',
+    centerpiece: 	'images/relation_of_man_and_nature/thumbnail.jpg',
     geo_location: 	'21.2975,-157.81978',
     lat: 			21.2975,
     lon: 			-157.81978
@@ -304,18 +304,18 @@ pathContent['harvest_celebration'] = {
     video_image: 	'',
     video_url: 		'',
     gallery_images: [
-		{ image: 'H1.jpg', description: "This mural was created by Juliette May Fraser for the 1939 San Francisco World's Fair. It consists of 13 masonite panels depicting the harvest and gift-giving ceremony of Native Hawaiians during the Makahiki season. Fraser was born in Honolulu during the reign of King Kalakaua, and built a reputation for portraying Hawaiian legends and other themes through linoleum cut, oil painting, ceramic, and fresco." },
-		{ image: 'H2.jpg', description: 'The Makahiki season is dedicated to honor the god Lono, who is associated with fertility, rainfall, agriculture, food, music and peace. Makahiki is roughly four months long and usually celebrated October through February.' },
-		{ image: 'H3.jpg', description: 'Ancient Hawaiians stopped their work and made offerings to the chief or aliʻi. Warfare was forbidden during Makahiki season. Time then was also spent on practicing sports, eating, dancing and renewing communal bonds.' },
-		{ image: 'H4.jpg', description: 'Ancient Hawaiians collected agricultural and aquacultural products like pigs, taro, sweet potatoes, dry fish, kapa and mats. Some even offered feathers from forest birds, and all of these hoʻokupu (offering) were presented or collected sort of like taxes (Auhau) during Makahiki.' },
-		{ image: 'H5.jpg', description: 'Each ahupuaʻa gathered its taxes to be given to the Ali’i Nui or the High Chief of the island. He acted as the deputy for Lono during the Makahiki Festival. The Ali’i Nui would hold an Akua Loa (representation of Lono), which was a long pole with a carved pig’s head on top and a strip of tapa (ancient Hawaiian cloth).' },
-		{ image: 'H6.jpg', description: 'Ancient Hawaiians were passionate to test their minds with games, which consisted of riddles, recitation of genealogies, proverbs and knowledge of hidden meanings, even board games, which was a stone slab or flat surface with shallow holes.' },
-		{ image: 'H7.jpg', description: 'Just like during the Makahiki season, with Native Hawaiians, set time aside today for peace and relaxation. Try to enjoy some games, test your brain or even dance. Maybe even make an offering, or in this case a donation. If you want to give back to The University of Hawaii, or support a specific part of the UH system, any contribution would be gladly appreciated. <a href="https://giving.uhfoundation.org/give-now" target="_system">Tap to donate</a>' },
+		{ image: 'H1.png', description: "This mural was created by Juliette May Fraser for the 1939 San Francisco World's Fair. It consists of 13 masonite panels depicting the harvest and gift-giving ceremony of Native Hawaiians during the Makahiki season. Fraser was born in Honolulu during the reign of King Kalakaua, and built a reputation for portraying Hawaiian legends and other themes through linoleum cut, oil painting, ceramic, and fresco." },
+		{ image: 'H2.png', description: 'The Makahiki season is dedicated to honor the god Lono, who is associated with fertility, rainfall, agriculture, food, music and peace. Makahiki is roughly four months long and usually celebrated October through February.' },
+		{ image: 'H3.png', description: 'Ancient Hawaiians stopped their work and made offerings to the chief or aliʻi. Warfare was forbidden during Makahiki season. Time then was also spent on practicing sports, eating, dancing and renewing communal bonds.' },
+		{ image: 'H4.png', description: 'Ancient Hawaiians collected agricultural and aquacultural products like pigs, taro, sweet potatoes, dry fish, kapa and mats. Some even offered feathers from forest birds, and all of these hoʻokupu (offering) were presented or collected sort of like taxes (Auhau) during Makahiki.' },
+		{ image: 'H5.png', description: 'Each ahupuaʻa gathered its taxes to be given to the Ali’i Nui or the High Chief of the island. He acted as the deputy for Lono during the Makahiki Festival. The Ali’i Nui would hold an Akua Loa (representation of Lono), which was a long pole with a carved pig’s head on top and a strip of tapa (ancient Hawaiian cloth).' },
+		{ image: 'H6.png', description: 'Ancient Hawaiians were passionate to test their minds with games, which consisted of riddles, recitation of genealogies, proverbs and knowledge of hidden meanings, even board games, which was a stone slab or flat surface with shallow holes.' },
+		{ image: 'H7.png', description: 'Just like during the Makahiki season, with Native Hawaiians, set time aside today for peace and relaxation. Try to enjoy some games, test your brain or even dance. Maybe even make an offering, or in this case a donation. If you want to give back to The University of Hawaii, or support a specific part of the UH system, any contribution would be gladly appreciated. <a href="https://giving.uhfoundation.org/give-now" target="_system">Tap to donate</a>' },
     ],
     location: 		'At main entrance of Hamilton Library, behind the front entrance door Hamilton Library Main Entrance',
     sharing: 		'Share your thoughts.',
-    thumbnail: 		'images/relation/thumbnail.jpg',
-    centerpiece: 	'images/relation/thumbnail.jpg',
+    thumbnail: 		'images/harvest_celebration/thumbnail.jpg',
+    centerpiece: 	'images/harvest_celebration/thumbnail.jpg',
     geo_location: 	'21.30047795319491,-157.8158144720395',
     lat: 			21.30047795319491,
     lon: 			-157.8158144720395

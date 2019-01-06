@@ -63,7 +63,6 @@
     <preference name="android-targetSdkVersion" value="23" />
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
     <preference name="phonegap-version" value="cli-8.0.0" />
-
     <plugin name="cordova-plugin-device" spec="~1.1.7" />
     <plugin name="cordova-plugin-file" spec="~5.0.0" />
     <plugin name="cordova-plugin-file-transfer" spec="~1.7.1" />
@@ -82,6 +81,5 @@
         <param name="CAMERA_USAGE_DESCRIPTION" value="We are using the Camera for sharing your own stories." />
         <param name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="We are using the Photo Library for storing photos and media you create." />
     </plugin>
-    <!--<plugin name="cordova-sqlite-legacy" spec="~2.0.1" />-->
     <engine name="browser" spec="~5.0.3" />
 </widget>
