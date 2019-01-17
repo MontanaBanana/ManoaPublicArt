@@ -405,7 +405,9 @@ footer .controls.buttons .fa.selected {
 
 .postcard .sharePicture,
 .postcard .choosePicture,
-.postcard .takePicture, {
+.postcard .choosePictureMaka,
+.postcard .takePicture,
+.postcard .takePictureMaka {
 	display:inline-block;
 	font-size:14px;
 	color:#fff;
@@ -418,7 +420,10 @@ footer .controls.buttons .fa.selected {
 }
 .postcard .sharePicture span,
 .postcard .choosePicture span,
-.postcard .takePicture span {
+.postcard .takePicture span,
+.postcard .sharePictureMaka span,
+.postcard .choosePictureMaka span,
+.postcard .takePictureMaka span {
 	font-family:'entypo',sans-serif;
 	-webkit-font-smoothing:antialiased;
 	font-size:34px;
@@ -426,13 +431,16 @@ footer .controls.buttons .fa.selected {
 	display:inline-block;
 	margin:0 4px -2px 0px;
 }
-.postcard .choosePicture {
+.postcard .choosePicture,
+.postcard .choosePictureMaka {
 	float:left;
 }
-.postcard .takePicture {
+.postcard .takePicture,
+.postcard .takePictureMaka {
 	float:right;
 }
-.postcard .sharePicture {
+.postcard .sharePicture,
+.postcard .sharePictureMaka {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top:16px;
@@ -448,7 +456,8 @@ footer .controls.buttons .fa.selected {
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 }
-.postcard .postcard-frame {
+.postcard .postcard-frame,
+.postcard .postcard-frame-maka {
 	width:98%;
 	height:auto;
 	border:4px solid #fff;

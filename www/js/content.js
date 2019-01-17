@@ -298,19 +298,19 @@ pathContent['relation_of_man_and_nature'] = {
 };
 
 pathContent['harvest_celebration'] = {
-    name:		"Makahiki Ho'okupu (Harvest Celebration)",
-    details: 		'',
+    name:		"Makahiki Ho'okupu",
+    details: 		'Harvest Celebration',
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
     gallery_images: [
-		{ image: 'H1.png', description: "This mural was created by Juliette May Fraser for the 1939 San Francisco World's Fair. It consists of 13 masonite panels depicting the harvest and gift-giving ceremony of Native Hawaiians during the Makahiki season. Fraser was born in Honolulu during the reign of King Kalakaua, and built a reputation for portraying Hawaiian legends and other themes through linoleum cut, oil painting, ceramic, and fresco." },
+		{ image: 'H1.png', description: "<strong>Harvest Celebration</strong><br /><br />This mural was created by Juliette May Fraser for the 1939 San Francisco World's Fair. It consists of 13 masonite panels depicting the harvest and gift-giving ceremony of Native Hawaiians during the Makahiki season. Fraser was born in Honolulu during the reign of King Kalakaua, and built a reputation for portraying Hawaiian legends and other themes through linoleum cut, oil painting, ceramic, and fresco." },
 		{ image: 'H2.png', description: 'The Makahiki season is dedicated to honor the god Lono, who is associated with fertility, rainfall, agriculture, food, music and peace. Makahiki is roughly four months long and usually celebrated October through February.' },
 		{ image: 'H3.png', description: 'Ancient Hawaiians stopped their work and made offerings to the chief or aliʻi. Warfare was forbidden during Makahiki season. Time then was also spent on practicing sports, eating, dancing and renewing communal bonds.' },
 		{ image: 'H4.png', description: 'Ancient Hawaiians collected agricultural and aquacultural products like pigs, taro, sweet potatoes, dry fish, kapa and mats. Some even offered feathers from forest birds, and all of these hoʻokupu (offering) were presented or collected sort of like taxes (Auhau) during Makahiki.' },
 		{ image: 'H5.png', description: 'Each ahupuaʻa gathered its taxes to be given to the Ali’i Nui or the High Chief of the island. He acted as the deputy for Lono during the Makahiki Festival. The Ali’i Nui would hold an Akua Loa (representation of Lono), which was a long pole with a carved pig’s head on top and a strip of tapa (ancient Hawaiian cloth).' },
 		{ image: 'H6.png', description: 'Ancient Hawaiians were passionate to test their minds with games, which consisted of riddles, recitation of genealogies, proverbs and knowledge of hidden meanings, even board games, which was a stone slab or flat surface with shallow holes.' },
-		{ image: 'H7.png', description: 'Just like during the Makahiki season, with Native Hawaiians, set time aside today for peace and relaxation. Try to enjoy some games, test your brain or even dance. Maybe even make an offering, or in this case a donation. If you want to give back to The University of Hawaii, or support a specific part of the UH system, any contribution would be gladly appreciated. <a href="https://giving.uhfoundation.org/give-now" target="_system">Tap to donate</a>' },
+		{ image: 'H7.png', description: 'Just like during the Makahiki season, with Native Hawaiians, set time aside today for peace and relaxation. Try to enjoy some games, test your brain or even dance. Maybe even make an offering, or in this case a donation. If you want to give back to The University of Hawaii, or support a specific part of the UH system, any contribution would be gladly appreciated. <a href="https://giving.uhfoundation.org/give-now" target="_system" style="color: white;">Tap to donate</a>' },
     ],
     location: 		'At main entrance of Hamilton Library, behind the front entrance door Hamilton Library Main Entrance',
     sharing: 		'Share your thoughts.',
@@ -322,18 +322,17 @@ pathContent['harvest_celebration'] = {
 };
 
 pathContent['maka_io_or_hawks_eye'] = {
-    name:		"Maka ‘Io or Hawk’s (1984) Eye by Edward M. Brownlee",
+    name:		"Maka ‘Io or Hawk’s Eye",
     details: 		'',
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
     gallery_images: [
-		{ image: 'M1.jpg', description: "Students, teachers and visitors once were greeted by a curious contraption as they entered the University of Hawaii at Manoa’s lower campus. For nearly a decade, the Maka ‘Io served as a proud symbol of strength and teamwork, representing the university’s flourishing athletic programs." },
+		{ image: 'M1.jpg', description: "<strong>Maka ‘Io or Hawk’s (1984)  Eye by Edward M. Brownlee</strong><br /><br />Students, teachers and visitors once were greeted by a curious contraption as they entered the University of Hawaii at Manoa’s lower campus. For nearly a decade, the Maka ‘Io served as a proud symbol of strength and teamwork, representing the university’s flourishing athletic programs." },
 		{ image: 'M2.jpg', description: 'When Maka Io first was installed at the university in 1984, it was said to encompass the spirit of the Hawaiian hawk’s keen eye and express the motion of sport.' },
 		{ image: 'M3.jpg', description: 'Yet in 1994, during the construction of the Stan Sheriff Center, Edward Brownlee’s sculpture was moved from its original location to a seemingly random field in front of Klum Gym.' },
 		{ image: 'M4.jpg', description: 'What the heck is it doing here? The sculpture now is cloaked in the shade of various trees and unnoticeable to those who drive down Lower Campus Road. The Public Art Archive explained that the parallel bronze forms represent fascia or a bundle of reeds, which further emphasizes strength in numbers.' },
-		{ image: 'M5.jpg', description: 'How could moving this sculpture to a more-visible area enhance the atmosphere of the university’s athletic complex? If you would like to find out, click on the image below and show us where you think Maka Io should be.' },
-		{ image: 'M6.jpg', description: 'Ancient Hawaiians were passionate to test their minds with games, which consisted of riddles, recitation of genealogies, proverbs and knowledge of hidden meanings, even board games, which was a stone slab or flat surface with shallow holes.' },
+		{ image: '', description: 'Maka Io is not Edward Brownlee’s only piece of art on campus, but his second has been left untitled. Follow the hints to find Brownlee’s second piece and enter the naming contest!<br /><br />HINT 1: Cross the road above the Hawk’s eye<br />HINT 2: Walk between the sound of music<br />HINT 3: On the right hand of Orvis' }
     ],
     location: 		'',
     sharing: 		'This Brownlee work is “Untitled.” What would you call it?',
@@ -374,9 +373,9 @@ pathContent['campus_center'] = {
     video_url: 		'',
     gallery_images: [
 		{ image: 'C1.jpg', description: "Hawai&#39;i Ka&#39;u Kumu, or “Hawai&#39;i is My Teacher,” was painted on the Campus Center walls at the University of Hawai&#39;i at Mānoa in 1982. Artist Calley O&#39;Neill says the mural, celebrating UH’s 70 anniversary, centers on how Hawai&#39;i’s people, food and energy flowed from mauka to makai." },
-		{ image: 'C2.jpg', description: '“I reflect and I meditate the time on the land and the people, nothing comes from ‘I want to do this.’ What is the community asking to communicate? … It’s a then and now. The left is the then and the right is the now,” O’Neill said.' },
-		{ image: 'C3.jpg', description: 'O’Neill spent two years researching and drawing sections of the mural.' },
-		{ image: 'C4.jpg', description: 'The mural features faces of real people around the islands with a story behind each person. O’Neill’s favorite element is the girls eating poi. “This is what life is about, savoring the moment, eating food of the land,” she said.' },
+		{ image: 'C2.jpg', description: '<audio controls><source src="images/campus_center/Clip1.mp3" type="audio/mpeg"></audio><br />“I reflect and I meditate the time on the land and the people, nothing comes from ‘I want to do this.’ What is the community asking to communicate? … It’s a then and now. The left is the then and the right is the now,” O’Neill said.' },
+		{ image: 'C3.png', description: 'O’Neill spent two years researching and drawing sections of the mural.' },
+		{ image: 'C4.jpg', description: '<audio controls><source src="images/campus_center/Clip2.mp3" type="audio/mpeg"></audio><br />The mural features faces of real people around the islands with a story behind each person. O’Neill’s favorite element is the girls eating poi. “This is what life is about, savoring the moment, eating food of the land,” she said.' },
     ],
     location: 		'',
     sharing: 		'What did Hawai&#39;i teach you?',
@@ -394,10 +393,11 @@ pathContent['loi'] = {
     video_image: 	'',
     video_url: 		'',
     gallery_images: [
-		{ image: 'L1.jpg', description: "Ka Papa Loʻi ʻO Kanewai, located next to the Hawaiʻinuiākea School of Hawaiian Knowledge, is an ancient Hawaiian parcel of land used to cultivate Kalo (Taro) using an integrated system of fresh water streams." },
-		{ image: 'L2.jpg', description: 'A group of Mānoa students rediscovered the abandoned ʻAwai (water ditch system) in 1980 and began planting Kalo and other indigenous and endemic plants. Through volunteers and UH Manoa students and staff regularly working the land, the art and tradition of Hawaiian agricultural practices continues.' },
-		{ image: 'L3.jpg', description: 'Today, Ka Papa Loʻi ʻO Kanewai consists of 10 terraces used to cultivate freshwater Kalo, classrooms and a Hale (covered thatched structure). The ancient loʻi is used as an outdoor classroom for many Manoa students and offers a place for those beyond the manoa campus to learn about the hawaiian perspective and way of thinking.' },
-		{ image: 'L4.jpg', description: 'Kanewai hosts a workday every first saturday of the month, open to the public. It is recommended to bring: Slippers, T-shirt and shorts (that can get dirty), hat, sunglasses, sunscreen, water and water bottles, and snacks' },
+		{ image: '', description: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/ZauxUHvWL7U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' }, 
+		{ image: 'L1.JPG', description: "Ka Papa Loʻi ʻO Kanewai, located next to the Hawaiʻinuiākea School of Hawaiian Knowledge, is an ancient Hawaiian parcel of land used to cultivate Kalo (Taro) using an integrated system of fresh water streams." },
+		{ image: 'L2.JPG', description: 'A group of Mānoa students rediscovered the abandoned ʻAwai (water ditch system) in 1980 and began planting Kalo and other indigenous and endemic plants. Through volunteers and UH Manoa students and staff regularly working the land, the art and tradition of Hawaiian agricultural practices continues.' },
+		{ image: 'L3.JPG', description: 'Today, Ka Papa Loʻi ʻO Kanewai consists of 10 terraces used to cultivate freshwater Kalo, classrooms and a Hale (covered thatched structure). The ancient loʻi is used as an outdoor classroom for many Manoa students and offers a place for those beyond the manoa campus to learn about the hawaiian perspective and way of thinking.' },
+		{ image: 'L4.JPG', description: 'Kanewai hosts a workday every first saturday of the month, open to the public. It is recommended to bring: Slippers, T-shirt and shorts (that can get dirty), hat, sunglasses, sunscreen, water and water bottles, and snacks' },
     ],
     location: 		'',
     sharing: 		'Share your story',

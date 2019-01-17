@@ -100,6 +100,9 @@ function initializeLayout(){
 			panel = 'postcard';
 		}
 		
+		if (selectedPath == 'maka_io_or_hawks_eye' && panel == 'sharing') {
+			panel = 'hawk-postcard';
+		}
 		
 		if(panel == 'video' || panel == 'gallery'){
 			// reset the video playback button to custom play button
@@ -173,6 +176,20 @@ function initializeLayout(){
 		$('.sharePicture').click(function(){
 			//alert('sharePicture');
 			window.plugins.socialsharing.share('Sharing a photo from the Manoa Public Art app! #manoapublicart', 'Manoa Public Art', $('#postcard-picture').attr('src'), $('#postcard-picture').attr('src'));
+			//window.plugins.socialsharing.share('Sharing a photo from Yellowstone! #yellowstone', 'Yellowstone', postcardUrl, postcardUrl);
+	});
+	
+	$('.choosePictureMaka').click(function(){
+			//alert('choosePicture');
+			photos.useExistingPhotoMaka(); // pulls from photo library
+		});
+		$('.takePictureMaka').click(function(){
+			//alert('takePicture');
+			photos.takePhotoMaka(); // uses camera
+		});
+		$('.sharePictureMaka').click(function(){
+			//alert('sharePicture');
+			window.plugins.socialsharing.share('Sharing a photo from the Manoa Public Art app! #manoapublicart', 'Manoa Public Art', $('#postcard-picture-maka').attr('src'), $('#postcard-picture-maka').attr('src'));
 			//window.plugins.socialsharing.share('Sharing a photo from Yellowstone! #yellowstone', 'Yellowstone', postcardUrl, postcardUrl);
 	});
 }
@@ -330,7 +347,11 @@ function setupDetailDiv(path){
 		// This is a gallery
 		var gallery_html = '';
 		for (var i = 0; i < content.gallery_images.length; i++) {
-			gallery_html += '<div class="gallery_image"><img src="images/' + path + '/' + content.gallery_images[i].image + '" /><br /><p>' + content.gallery_images[i].description + '</p></div>';
+			gallery_html += '<div class="gallery_image">';
+			if (content.gallery_images[i].image.length > 0) { 
+				gallery_html += '<img src="images/' + path + '/' + content.gallery_images[i].image + '" /><br />';
+			}
+			gallery_html += '<p>' + content.gallery_images[i].description + '</p></div>';
 			//gallery_html += '<a data-rel="gallery-' + path + '" href="' + 'images/' + path + '/' + content.gallery_images[i].image + '" class="swipebox"><img src="' + 'images/' + path + '/' + content.gallery_images[i].image + '" alt="image"></a>';
 		}
 		//gallery_html += '<div class="map-link" onclick="$(\'#sharing\').click();"><i class="fa fa-share-square-o"></i> Directions</div>';
