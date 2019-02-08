@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.mobilemediamatters.manoa" version="3.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.mobilemediamatters.manoa" version="3.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Manoa</name>
     <description>
         Learn about the Public Art around the Manoa campus.
@@ -90,4 +90,8 @@
     <config-file platform="ios" parent="NSPhotoLibraryUsageDescription" mode="replace">
       <string>We are using the Photo Library for storing photos and media you create.</string>
     </config-file>
+
+    <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
+        <string>We are using the Photo Library for storing photos and media you create.</string>
+    </edit-config>
 </widget>
