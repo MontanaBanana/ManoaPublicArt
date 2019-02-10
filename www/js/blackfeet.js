@@ -465,9 +465,9 @@ function captureSuccess(mediaFiles){
 }
 
 function captureError(error){
-    var msg = 'An error occurred during capture: ' + error.code;
-    navigator.notification.alert(msg, null, 'Uh oh!');
-	alert(msg);
+    //var msg = 'An error occurred during capture: ' + error.code;
+    //navigator.notification.alert(msg, null, 'Uh oh!');
+	//alert(msg);
     
     // reset sharing media type
     sharingMediaType = '';
