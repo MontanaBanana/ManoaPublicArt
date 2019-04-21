@@ -92,7 +92,7 @@ function initializeLayout(){
 	$('footer .fa').on('click', function(){
 
 		var panel = $(this).data('id');
-
+		
 		$('.parent .panel').hide();
 		$('footer .fa').removeClass('selected');
 
@@ -154,6 +154,74 @@ function initializeLayout(){
 			$('.parent.detail .panel.' + panel).show();
 			$(this).addClass('selected');
 		}
+		
+		var switchIndex = null;
+		var keys = [];
+		if (panel == 'left') {
+			var index = 0;
+			for (var property in pathContent) {
+			    if (pathContent.hasOwnProperty(property)) {
+					keys[index] = property;
+					if (property == selectedPath) {
+						//alert(index);
+						if (index == 0) {
+							// go home
+							//alert('left switchView ' + 'home');
+							//switchView('orientation-screen', false);
+							switchIndex = 'orientation-screen';
+						}
+						else {
+							//alert( index );
+							//alert('left switchView ' + keys[index-1]);
+							//switchView(keys[index-1]);
+							switchIndex = index-1;
+						}
+					}
+					index++;
+			    }
+			}
+		}
+		
+		if (panel == 'right') {
+			var index = 0;
+			for (var property in pathContent) {
+			    if (pathContent.hasOwnProperty(property)) {
+					keys[index] = property;
+					if (property == selectedPath) {
+						//alert(index);
+						//alert(Object.keys(pathContent).length);
+						if (index == Object.keys(pathContent).length-1) {
+							// go home
+							//alert('right switchView ' + 'home');
+							//switchView('orientation-screen', false);
+							switchIndex = 'orientation-screen';
+						}
+						else {
+							//alert('right switchView ' + keys[index+1]);
+							//switchView(keys[index+1]);
+							switchIndex = index+1;
+						}
+					}
+					index++;
+			    }
+			}
+		}
+		
+		//alert(keys[switchIndex]);
+		//alert(switchIndex); 
+		if (switchIndex == 'orientation-screen' || isNumeric(switchIndex)) {
+			if (switchIndex == 'orientation-screen') {
+				//alert('switching to orientation-screen');
+				switchView('orientation-screen', false);
+				//openPath('home');
+			}
+			else {
+				//alert('switching to ' + keys[switchIndex]);
+				switchView(false, keys[switchIndex]);
+				//alert('opening path to: ' + switchIndex + ' ' + keys[switchIndex]);
+				//openPath(keys[switchIndex], false);
+			}
+		}
 			
 		window.scrollTo(0, 0);
 
@@ -192,6 +260,10 @@ function initializeLayout(){
 			window.plugins.socialsharing.share('Sharing a photo from the Manoa Public Art app! #manoapublicart', 'Manoa Public Art', $('#postcard-picture-maka').attr('src'), $('#postcard-picture-maka').attr('src'));
 			//window.plugins.socialsharing.share('Sharing a photo from Yellowstone! #yellowstone', 'Yellowstone', postcardUrl, postcardUrl);
 	});
+}
+
+function isNumeric(n) {
+  return !isNaN(parseFloat(n)) && isFinite(n);
 }
 
 /**
@@ -254,7 +326,8 @@ function setupOrientationScreen(){
 	
 		var elem = $('<div/>').attr( attributes );
 		$('.parent .stories').append( elem );
-		$('.parent .stories .story.' + path).append('<h3>' + content.name + '</h3>');
+		//alert(elem);
+		$('.parent .stories .story.' + path).append('<h3>' + content.name + ' - <span id="' + path + '-distance"></span></h3>');
 	});
 }
 
@@ -539,18 +612,29 @@ function checkLocation(path, targetLocation, currentPostion){
     }
 
     //alert('Checking ' + path + ' (' + targetLocation.lat + ', ' + targetLocation.lon + ') vs. (' + currentPostion.coords.latitude + ', ' + currentPostion.coords.longitude + ')');
+    //lat: 42.67759, lon: 23.28596
+	// (targetLocation.lat == 21.29979 && targetLocation.lon == -157.81673)
+		
+	// $('.parent .stories .story.' + path).append('<h3>' + content.name + ' - <span class="distance-away ' + path + '">200 feet away</span></h3>');	
+	var feet_away = Math.floor(p1.distanceTo(p2) * 1000 * 3.28084);
+	var direction = bearingToDirection( p1.bearingTo(p2) );
+	
+	$('#'+path+'-distance').html( feet_away + ' feet ' + direction );
 
-    if ((p1.distanceTo(p2) * 1000) < 50 || (targetLocation.lat == 21.29979 && targetLocation.lon == -157.81673 && (p1.distanceTo(p2) * 1000) < 5000)) {
+	//alert( ((p1.distanceTo(p2) * 1000) + ' ' + (p1.bearingTo(p2))) );
+	//if ((p1.distanceTo(p2) * 1000) < 35 || (targetLocation.lat == 42.67759 && targetLocation.lon == 23.28596 && (p1.distanceTo(p2) * 1000) < 5000))
+    if ((p1.distanceTo(p2) * 1000) < 35 || (targetLocation.lat == 21.29979 && targetLocation.lon == -157.81673 && (p1.distanceTo(p2) * 1000) < 5000)) {
 	    // tell app we're on-site
 	    //alert('inside cond');
 	    offsite = false;
 	    
-
-        if (path == 'varney_circle') {
+        //if (path == 'varney_circle') {
             //alert('We are close enough to ' + path + ' and we are on screen ' + screen + ' and selectedPath: ' + selectedPath);
-        }
+        //}
         // screen-gallery/
-		if (screen == 'initial-screen' || screen == 'orientation-screen' || screen == 'offsite-screen' || selectedPath == 'orientation-screen' || selectedPath == '') {
+		
+		// Do this on any screen now.
+		//if (screen == 'initial-screen' || screen == 'orientation-screen' || screen == 'offsite-screen' || selectedPath == 'orientation-screen' || selectedPath == '') {
             if (typeof checkLocation.beenthere[path] == "undefined") {
                 //alert('We are switching to ' + path);
                 navigator.notification.vibrate(1000);
@@ -560,7 +644,7 @@ function checkLocation(path, targetLocation, currentPostion){
             else {
                 //alert('But, we\'re not going there since we already have been.');
             }
-        }
+        //}
     
     } else if(screen == 'initial-screen') {
 	    // tell app to no longer switch to the offsite-screen

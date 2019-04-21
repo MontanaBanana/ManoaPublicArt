@@ -394,3 +394,97 @@ if (typeof(String.prototype.trim) === "undefined") {
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+
+function bearingToDirection(wd)
+{
+    var dir = '';
+
+    if (wd >= 0 && wd <= 11.25)
+    {
+        dir = "N";
+    }
+
+    if (wd > 348.75 && wd <= 360)
+    {
+        dir = "N";
+    }
+
+    if (wd > 11.25 && wd <= 33.75)
+    {
+        dir = "NNE";
+    }
+
+    if (wd > 33.75 && wd <= 56.25)
+    {
+        dir = "NE";
+    }
+
+    if (wd > 56.25 && wd <= 78.75)
+    {
+        dir = "ENE";
+    }
+
+    if (wd > 78.75 && wd <= 101.25)
+    {
+        dir = "E";
+    }
+
+    if (wd > 101.25 && wd <= 123.75)
+    {
+        dir = "ESE";
+    }
+
+    if (wd > 123.75 && wd <= 146.25)
+    {
+        dir = "SE";
+    }
+
+    if (wd > 146.25 && wd <= 168.75)
+    {
+        dir = "SSE";
+    }
+
+    if (wd > 168.75 && wd <= 191.25)
+    {
+        dir = "S";
+    }
+
+    if (wd > 191.25 && wd <= 213.75)
+    {
+        dir = "SSW";
+    }
+
+    if (wd > 213.75 && wd <= 236.25)
+    {
+        dir = "SW";
+    }
+
+    if (wd > 236.25 && wd <= 258.75)
+    {
+        dir = "WSW";
+    }
+
+    if (wd > 258.75 && wd <= 281.25)
+    {
+        dir = "W";
+    }
+
+    if (wd > 281.25 && wd <= 303.75)
+    {
+        dir = "WNW";
+    }
+
+    if (wd > 303.75 && wd <= 326.25)
+    {
+        dir = "NW";
+    }
+
+    if (wd > 326.25 && wd <= 348.75)
+    {
+        dir = "NNW";
+    }
+
+    return dir;
+}
+

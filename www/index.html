@@ -18,7 +18,7 @@
 </script>
 
 <script src="cordova.js" type="text/javascript"></script>
-<script src="cordova_plugins.js" type="text/javascript"></script>
+<!--<script src="cordova_plugins.js" type="text/javascript"></script>-->
 <script src="geolocation.js" type="text/javascript"></script>
 
 <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
@@ -41,10 +41,11 @@ function onDeviceReady() {
 	if(!is_ios){
 		navigator.splashscreen.show();
 	}
+	window.plugins.insomnia.keepAwake();
 	
 	document.addEventListener('resume', function(e){
         // prevent app from sleeping
-		//window.plugins.insomnia.keepAwake();
+		window.plugins.insomnia.keepAwake();
     }, false);
 	//alert(navigator.device.capture);
 
@@ -55,7 +56,7 @@ function onDeviceReady() {
 		}
 		
 		// app is closed or in background, allow the device to sleep until it's re-opened
-		//window.plugins.insomnia.allowSleepAgain();
+		window.plugins.insomnia.allowSleepAgain();
     }, false);
 
     document.addEventListener('backbutton', function(e){
@@ -95,6 +96,19 @@ function onDeviceReady() {
 		<div class="warning">
 			For full app features, please start at<br>
 			<i class="fa fa-compass"></i> UH Manoa
+		</div>
+		<div class="controls">
+			<div class="continue">Continue <i class="fa fa-angle-right"></i></div>
+		</div>
+	</div>
+</div>
+
+<!-- Onsite notice screen -->
+<div class="parent hidden" id="onsite-screen">
+	<div class="position-bottom">
+		<div class="warning">
+			We have found your location at the<br>
+			<i class="fa fa-compass"></i> UH Manoa campus!
 		</div>
 		<div class="controls">
 			<div class="continue">Continue <i class="fa fa-angle-right"></i></div>
@@ -261,11 +275,13 @@ function onDeviceReady() {
 
 <footer class="hidden">
 	<div class="controls buttons">
+		<i class="fa fa-chevron-left" data-id="left" data-name=""></i>
 		<i class="fa fa-home" data-id="home" data-name=""></i>
 		<!--<i class="fa fa-newspaper-o" data-id="details" data-name=""></i>-->
 		<i class="fa fa-file-image-o" data-id="gallery" data-name=""></i>
 		<i class="fa fa-compass" id="location" data-id="location" data-name=""></i>
 		<i class="fa fa-share-square-o" id="sharing" data-id="sharing" data-name=""></i>
+		<i class="fa fa-chevron-right" data-id="right" data-name=""></i>
 	</div>
 </footer>
 

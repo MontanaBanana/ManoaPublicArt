@@ -11,10 +11,15 @@ var analyticsTrackingId = 'UA-57147920-2';
 
 var siteUrl = 'http://manoa.hawaii.edu/landscaping/landscapingpage/campusart.php';
 
-
 var startingLocation = {
 	lat: 21.29979, lon: -157.81673
 };
+
+/*
+var startingLocation = {
+	lat: 42.67759, lon: 23.28596
+};
+*/
 
 var pathContent = {};
 
@@ -258,13 +263,17 @@ pathContent['gate_of_hope'] = {
 };
 
 pathContent['monolith'] = {
-    name:		'Monolith',
+    name:		'Krypton',
     details: 		'',
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
     gallery_images: [
-	{ image: 'M1.jpg', description: ' You might easily walk by this strange hunk of standing metal that looks like a wall someone forgot to attach to a building. Surprise; it’s art! Or it was art. Bruce Hopper created Krypton 1 X 6 X 18 as a monolith that resembled the similarly mysterious slab in the film “2001: A Space Odyssey” in 1973. As part of the otherworldly concept, the slab inexplicably hummed. But enough people were annoyed by that hum that the electronic device was disconnected a year later in response to “an energy shortage.”' },
+		{ image: 'M1.jpg', description: '<audio controls><source src="images/monolith/monolith.mp3" type="audio/mpeg"></audio> This structure may not seem like much at a glance, but if you’ve seen Stanley Kubrick’s “2001: A Space Odyssey,” it may be familiar to you.<br><br>Just like any of Kubrick’s works, there’s a lot of debate on the symbolism of the monolith in “A Space Odyssey.” But it’s the general consensus that these monoliths appear in each new step of human evolution, such as when early primates are learning to use tools.<br><br>This monolith was designed by graphic designer Bruce Hopper in 1973 and stands at 18 feet tall and 6 feet wide, dwarfing any person that walks past. And while it was originally colored a matte black, decades of rusting caused it to fade to a pale tan-gray that caused it to blend with its surroundings.<br><br>Hopper was commissioned by the state to create a piece relating to the sciences, as the Physics Department is housed in nearby Watanabe Hall. It is fitting then, that he designed the monument inspired by “A Space Odyssey,” and named it “Krypton,” after Superman’s home planet.' },
+		{ image: 'M2.jpg', description: 'This photo by Rick Holt for “Sculpture in the Sun,” 1978, shows the original black-matte coloring.<br><br>2018 marked the 50th anniversary of Kubrick’s classic sci-fi space epic. But it was that very same year that Manoa’s monolith was actually about to be removed. <br><br>Derek Erwin, the Conservation Coordinator for the Hawai‘i State Foundation On Culture And The Arts, oversees the over 600 commissioned works around Hawaii. And because of corrosion at the base of the monument, Derek says his first impression was that Hopper’s Krypton could be in danger of falling.<br><br>“The plan was actually just to hire somebody to remove the monument, but people from the building came out and were concerned, and they wanted to if possible keep the thing,” said Erwin.<br><br>Erwin hired a structural engineer to inspect the piece, and once it was found to be structurally sound, he made the decision to restore it.<br><br>When restoring a piece of art, it’s important to not only understand how it was made but also the artist’s intent behind the methods. Because, when you change the look and feel of the art piece, you run the risk of also changing its message. <br><br>But the problem is, we don’t know for sure what Bruce Hopper’s original message even was. We know he based it off “2001,” but he also named it Krypton, a reference to a completely different work of science fiction. <br><br>There was a lot of dispute over what the monolith officially was made out of. Newspaper articles from the time reported it was made of bronze and painted, while books such as “Sculpture in the Sun,” state it was chemically treated to give it a dark hue. ' },
+		{ image: 'M3.png', description: 'Here’s what the monolith looked like before restoration in 2017.<br><br>Laura Ruby, a local artist and founder of the UHM Art Consulting Committee, makes the case the monolith was chemically treated.<br><br>“When you see it sanded down, it’s a patina, which is a rust, and like with Bronze for example, which is a red color, when it ages it turns a green, gray-ish color.”<br><br>In a departure from the original method of coloring, Erwin decided to have Krypton painted black, with a glossy finish to protect the monolith from the environment. Now, instead of fading into the background, the monolith stands out, with its surface shining like a mirror.<br><br>But the restoration process didn’t stop there. ' },
+		{ image: 'M4.jpg', description: 'There was one thing the Krypton monolith was known for … a deep and perpetual vibrating sound that was turned off less than a year after it was constructed. This sound was meant to mimic the music heard whenever the monolith would appear in the “2001” film.<br><br>There is no recorded audio of what it sounded like before, but the vibrations were playing at 60 hertz. <br><br>This was achieved with an electric device originally installed within the structure and connected to a larger speaker. However, in response to noise complaints and an energy shortage, the humming device was disconnected in 1974, merely a year after installation.  <br><br>Those present at the time say the sound was so persisting, you could hear them in the offices, and even the classrooms. <br><br>“You can’t have this thing just going wild, because it’s going to be very disruptive for students,” said Kevin Croker, a post-doctoral fellow in the Department of Physics. “And if you do a lot of low frequencies, which is what a structure like that is going to be good at, because it’s very big, it’s going to resonate at low frequencies.”<br><br>Crocker is one of the few people to have access to Krypton’s new sound system, which, for now has to be powered through a large extension cord from one of the Watanabe classrooms to a weather box hidden behind the shrubs. From there, he can connect to his phone and basically play any sound wave, song or frequency. ' },
+		{ image: 'M5.png', description: '“The coolest thing about the thing is that every time I walk by it there’s always someone staring at it or touching it, it just has such a cool presence,” Crocker said. “People see it now and people are curious about it, and I think it’s a great opportunity to get people involved and understanding what we bring to the community.”<br><br>There are no plans to have the Krypton monolith constantly play a permanent sound, but that doesn’t mean it will be forgotten. They’ve already used it to play music at the Physics open house and are planning to use it for sound studies. Crocker also says he’s looking forward to collaborating with other departments on future projects.<br><br>With its restoration, Bruce Hopper’s Krypton definitely went through some changes. But, along with updates in technology, these changes are better suited to the needs of the people closest to it. Not only that, because the keys to the sounds system were given directly to people in the department, there is now so much more room for experimentation, collaboration, and interactivity.' },
     ],
     location: 		'Head West on Correa Rd from Keller Rd.',
     sharing: 		'Share your thoughts on the Monolith.',
