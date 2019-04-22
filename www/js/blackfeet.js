@@ -637,7 +637,7 @@ function checkLocation(path, targetLocation, currentPostion){
 		//if (screen == 'initial-screen' || screen == 'orientation-screen' || screen == 'offsite-screen' || selectedPath == 'orientation-screen' || selectedPath == '') {
             if (typeof checkLocation.beenthere[path] == "undefined") {
                 //alert('We are switching to ' + path);
-                navigator.notification.vibrate(1000);
+                navigator.vibrate(1000);
                 switchView(false, path);
                 checkLocation.beenthere[path] = true;
             }
