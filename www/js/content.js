@@ -30,6 +30,33 @@ pathContent['varney_circle'] = {
     video_image: 	'',
     video_url: 		'', // vimeo video id
     gallery_images: [
+	{ image: 'V1.png', description: 'CAPTION: Courtesy of the University of Hawaii Archives.<br><br>The Varney Circle Fountain is nearly as old as the University of Hawaii itself. Built in the early 1930s, in the middle of the Great Depression, it was one of the first structures on campus. For decades, it was a beloved community landmark. Erected in front of the first official UH building and its administrative hub, Hawaii Hall, this fountain also served an important symbolic function for the university – as a fount of vitality. Yet today, it has fallen into disrepair with no immediate plans to fix it.' },
+	{ image: 'V2.png', description: 'This is what it used to look like, not that long ago, with flowers blooming around it and water flowing. Every so often, in a drought, the fountain would be turned off. But in 2006, it broke. Its water pumps had to be replaced. The fountain functioned well, again, for a couple of years, said University of Hawaii spokesman Dan Meisenzahl, but then other problems started to emerge. It hasn’t had water flowing in it now since 2009. <br><br>At that time, a small room below the fountain “filled with water and shorted that brand new pump," Meisenzahl said. In addition, he said, one side of the fountain’s concrete slab is sinking, which makes repair more difficult. <br><br>The fountain also is attached to the university’s storm-gauge system, and the fountain as-is cannot legally pump unfiltered water into that system. It needs a filtration system, and Meisenzahl said there is no room beneath the fountain to install it. <br><br>"Since it was built to the drain system, which was probably legal back when it was built, that\'s one of the huge issues with it now,” he said.' },
+	{ image: 'V3.png', description: 'CAPTION: The fountain today; photo courtesy of Mari Galiher.<br><br>So on most days, it looks like this, tattered and weed filled. But in 1934, excitement about a fountain in the center of UH inspired students to raise the money to build it. They loved one of their faculty members at what was then the Territorial Normal Training School, a history teacher named Ada Susan Varney. They named the fountain after her, and this achievement was a source of campus pride.' },
+	{ image: 'V4.png', description: 'You can still find this plaque on the fountain’s base. Construction was handled by art instructor Henry H. Rempel and a recent graduate, Cornelia McIntrye Foley. They designed it and raised the funds for it. For one of the first times in Hawaii, a tiki motif was used to decorate it. ' },
+	{ image: 'V5.png', description: 'Photo courtesy of Jim Bea Sampaga<br><br>That tiki imagery is repeated eight times around the walls of the fountain. Rochelle Muamoholeva of the local company Hand-Carved Tiki translated the image to mean: Protection and peace.' },
+	{ image: 'V6.png', description: 'CAPTION: Circa 1940s; courtesy of the University Archives.<br><br>For most of its existence, the fountain has been a cornerstone of campus culture. According to the book “Building a Rainbow: A History of the Buildings and Grounds of the University of Hawaii’s Manoa Campus,” the fountain was a favorite location for college pranks and for people to meet on dates. Students often would ink the water or dump boxes of soap powder, and couples would toss coins into the fountain to wish for a happy relationship together. At that time, Varney fountain was the Manoa version of the Trevi fountain in Rome.' },
+	{ image: 'V7.png', description: 'CAPTION: Students, staff and faculty helped to plant ʻĀweoweo around Varney Circle in 2017; photo courtesy of University of Hawai’i News.<br><br>Some efforts have been made to clean up the landscape around the fountain and enliven its appearance. Orville Baldos, assistant professor in the College of Tropical Agriculture and Human Resources, chose the Varney Circle for his native Hawaiian plants landscape-design research project. He uses the Varney Circle as a lab to see if the plants can last under low maintenance. He wanted to showcase these plants to people, especially landscapers, to demonstrate the utility of native Hawaiian plants. "The reason why we planted native plants over there was (because) it was the most visible area in campus," Baldos said. "It has high traffic, so people can see what\'s there." Baldos was also a graduate student representative on UH Manoa\'s landscaping committee when he was pursuing graduate studies from 2005 to 2013. He thinks the Varney Fountain is worth saving because it\'s a historic structure in UH Manoa, especially with only a few other water features on campus. "If maybe we\'re getting enough funding to sustain the maintenance, then maybe it can be run as a fountain again," he said. "It\'ll be nice to have a fountain actually, if we had the money."' },
+	{ image: 'V8.png', description: 'CAPTION: Photo courtesy of Jim Bea Sampaga.<br><br>But for now, it looks like this. Ragged and in disrepair. Forgotten. If the fountain is to ever work again, under its current conditions, UH spokesman Meisenzahl said the university would have to fill, pump and drain the water every month. "That\'s labor intensive for our employees," he said, adding: "These types of fountains that are especially out in the open, they don\'t meet our goals as a sustainable entity because the water evaporates, so you\'re constantly having to fill it with water."<br><br>How much would it cost to fix? Blake Araki, UH director of Campus Operations and Facilities, said he cannot provide a solid estimate without checking the fountain first. The pump system, piping, electrical system and the condition of the fountain are some of the things to consider. He has no work order to even look into it.<br><br>“If all of these components need repairs or replacement, the work can be close to six figures,” he said. But if the piping, electrical and fountain foundation are still good, he said that it could be cheaper. “Until this can be determined,” he added. “It is hard to pin down a good estimate.”<br><br>Although there are no current plans to repair the fountain, the university is planning to convert Farrington Road, Campus Road and Varney Circle into a large pedestrian walkway, like McCarthy Mall. The plan is to get the vehicles out of the interior of the campus. When asked what will happen to Varney Circle, Meisenzahl said that\'s the question they are still trying to figure out. <br><br>"There\'s a lot of pieces to it, so it fits a much larger plan, so a lot of the things that we\'re looking at doing are still kind of a vision," he said. "They\'re not entirely sure how\'s that all gonna fit, but since that question is out there, there are no plans to do anything (on Varney Circle) as of right now."'},
+
+    ],
+    location: 		'Go to the center of campus',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/varney_circle/thumbnail.jpg',
+    centerpiece: 	'images/varney_circle/centerpiece.jpg',
+    geo_location: 	'21.30002,-157.81816',
+    lat: 			21.30002, 
+    lon: 			-157.81816
+};
+
+/* varney_circle v1
+pathContent['varney_circle'] = {
+	name:			'Varney Circle',
+    details: 		'A fountain run dry',
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'', // vimeo video id
+    gallery_images: [
 	{ image: 'V1.jpg', description: 'The location of Varney Fountain outside of Hawai\'i Hall is one of great importance and symbolism to the university, as a central meeting place and the front lawn of the administration building.' },
 	{ image: 'V2.jpg', description: 'For decades, the fountain was a dynamic place, attracting students with its sounds of running water, representing the flowing prosperity of the university. ' },
 	{ image: 'V3.jpg', description: 'Yet in recent years – as financial troubles have befallen the state’s flagship college – the fountain has ran dry and remains silent.' },
@@ -46,6 +73,7 @@ pathContent['varney_circle'] = {
     lat: 			21.30002, 
     lon: 			-157.81816
 };
+*/
 
 pathContent['air'] = {
 	name:		'Air',
@@ -67,9 +95,9 @@ pathContent['air'] = {
     sharing: 		'How is the element air important to you? Share a story about air.',
     thumbnail: 		'images/air/thumbnail.jpg',
     centerpiece: 	'images/air/centerpiece.jpg',
-    geo_location: 	'21.29978,-157.81672',
-    lat: 			21.29978,
-    lon: 			-157.81672
+    geo_location: 	'21.299562,-157.816385',
+    lat: 			21.299562,
+    lon: 			-157.816385
 };
 
 pathContent['earth'] = {
@@ -90,9 +118,9 @@ pathContent['earth'] = {
     sharing: 		'How is the element earth important to you? Share a story about earth.',
     thumbnail: 		'images/earth/thumbnail.jpg',
     centerpiece: 	'images/earth/centerpiece.jpg',
-    geo_location:   '21.29978,-157.81672',
-    lat:            21.29978,
-    lon:            -157.81672
+    geo_location:   '21.299289,-157.81647',
+    lat:            21.299289,
+    lon:            -157.81647
 };
 
 pathContent['fire'] = {
@@ -115,8 +143,8 @@ pathContent['fire'] = {
     thumbnail: 		'images/fire/thumbnail.jpg',
     centerpiece: 	'images/fire/centerpiece.jpg',
     geo_location:   '21.29978,-157.81672',
-    lat:            21.29978,
-    lon:            -157.81672
+    lat:            21.299564,
+    lon:            -157.816828
 };
 
 
@@ -138,9 +166,9 @@ pathContent['water'] = {
     sharing: 		'How is the element water important to you? Share a story about water.',
     thumbnail: 		'images/water/thumbnail.jpg',
     centerpiece: 	'images/water/centerpiece.jpg',
-    geo_location:   '21.29978,-157.81672',
-    lat:            21.29978,
-    lon:            -157.81672	
+    geo_location:   '21.299529,-157.816598',
+    lat:            21.299529,
+    lon:            -157.816598
 };
 
 pathContent['founders_gate'] = {
@@ -269,7 +297,7 @@ pathContent['monolith'] = {
     video_image: 	'',
     video_url: 		'',
     gallery_images: [
-		{ image: 'M1.jpg', description: '<audio controls><source src="images/monolith/monolith.mp3" type="audio/mpeg"></audio> This structure may not seem like much at a glance, but if you’ve seen Stanley Kubrick’s “2001: A Space Odyssey,” it may be familiar to you.<br><br>Just like any of Kubrick’s works, there’s a lot of debate on the symbolism of the monolith in “A Space Odyssey.” But it’s the general consensus that these monoliths appear in each new step of human evolution, such as when early primates are learning to use tools.<br><br>This monolith was designed by graphic designer Bruce Hopper in 1973 and stands at 18 feet tall and 6 feet wide, dwarfing any person that walks past. And while it was originally colored a matte black, decades of rusting caused it to fade to a pale tan-gray that caused it to blend with its surroundings.<br><br>Hopper was commissioned by the state to create a piece relating to the sciences, as the Physics Department is housed in nearby Watanabe Hall. It is fitting then, that he designed the monument inspired by “A Space Odyssey,” and named it “Krypton,” after Superman’s home planet.' },
+		{ image: 'M1.jpg', description: '<audio controls><source src="images/monolith/monolith.mp3" type="audio/mpeg"></audio> <br />This structure may not seem like much at a glance, but if you’ve seen Stanley Kubrick’s “2001: A Space Odyssey,” it may be familiar to you.<br><br>Just like any of Kubrick’s works, there’s a lot of debate on the symbolism of the monolith in “A Space Odyssey.” But it’s the general consensus that these monoliths appear in each new step of human evolution, such as when early primates are learning to use tools.<br><br>This monolith was designed by graphic designer Bruce Hopper in 1973 and stands at 18 feet tall and 6 feet wide, dwarfing any person that walks past. And while it was originally colored a matte black, decades of rusting caused it to fade to a pale tan-gray that caused it to blend with its surroundings.<br><br>Hopper was commissioned by the state to create a piece relating to the sciences, as the Physics Department is housed in nearby Watanabe Hall. It is fitting then, that he designed the monument inspired by “A Space Odyssey,” and named it “Krypton,” after Superman’s home planet.' },
 		{ image: 'M2.jpg', description: 'This photo by Rick Holt for “Sculpture in the Sun,” 1978, shows the original black-matte coloring.<br><br>2018 marked the 50th anniversary of Kubrick’s classic sci-fi space epic. But it was that very same year that Manoa’s monolith was actually about to be removed. <br><br>Derek Erwin, the Conservation Coordinator for the Hawai‘i State Foundation On Culture And The Arts, oversees the over 600 commissioned works around Hawaii. And because of corrosion at the base of the monument, Derek says his first impression was that Hopper’s Krypton could be in danger of falling.<br><br>“The plan was actually just to hire somebody to remove the monument, but people from the building came out and were concerned, and they wanted to if possible keep the thing,” said Erwin.<br><br>Erwin hired a structural engineer to inspect the piece, and once it was found to be structurally sound, he made the decision to restore it.<br><br>When restoring a piece of art, it’s important to not only understand how it was made but also the artist’s intent behind the methods. Because, when you change the look and feel of the art piece, you run the risk of also changing its message. <br><br>But the problem is, we don’t know for sure what Bruce Hopper’s original message even was. We know he based it off “2001,” but he also named it Krypton, a reference to a completely different work of science fiction. <br><br>There was a lot of dispute over what the monolith officially was made out of. Newspaper articles from the time reported it was made of bronze and painted, while books such as “Sculpture in the Sun,” state it was chemically treated to give it a dark hue. ' },
 		{ image: 'M3.png', description: 'Here’s what the monolith looked like before restoration in 2017.<br><br>Laura Ruby, a local artist and founder of the UHM Art Consulting Committee, makes the case the monolith was chemically treated.<br><br>“When you see it sanded down, it’s a patina, which is a rust, and like with Bronze for example, which is a red color, when it ages it turns a green, gray-ish color.”<br><br>In a departure from the original method of coloring, Erwin decided to have Krypton painted black, with a glossy finish to protect the monolith from the environment. Now, instead of fading into the background, the monolith stands out, with its surface shining like a mirror.<br><br>But the restoration process didn’t stop there. ' },
 		{ image: 'M4.jpg', description: 'There was one thing the Krypton monolith was known for … a deep and perpetual vibrating sound that was turned off less than a year after it was constructed. This sound was meant to mimic the music heard whenever the monolith would appear in the “2001” film.<br><br>There is no recorded audio of what it sounded like before, but the vibrations were playing at 60 hertz. <br><br>This was achieved with an electric device originally installed within the structure and connected to a larger speaker. However, in response to noise complaints and an energy shortage, the humming device was disconnected in 1974, merely a year after installation.  <br><br>Those present at the time say the sound was so persisting, you could hear them in the offices, and even the classrooms. <br><br>“You can’t have this thing just going wild, because it’s going to be very disruptive for students,” said Kevin Croker, a post-doctoral fellow in the Department of Physics. “And if you do a lot of low frequencies, which is what a structure like that is going to be good at, because it’s very big, it’s going to resonate at low frequencies.”<br><br>Crocker is one of the few people to have access to Krypton’s new sound system, which, for now has to be powered through a large extension cord from one of the Watanabe classrooms to a weather box hidden behind the shrubs. From there, he can connect to his phone and basically play any sound wave, song or frequency. ' },

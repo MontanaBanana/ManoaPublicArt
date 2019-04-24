@@ -610,7 +610,6 @@ function checkLocation(path, targetLocation, currentPostion){
         // perform the initialization
         checkLocation.beenthere = [];
     }
-
     //alert('Checking ' + path + ' (' + targetLocation.lat + ', ' + targetLocation.lon + ') vs. (' + currentPostion.coords.latitude + ', ' + currentPostion.coords.longitude + ')');
     //lat: 42.67759, lon: 23.28596
 	// (targetLocation.lat == 21.29979 && targetLocation.lon == -157.81673)
