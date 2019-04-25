@@ -319,15 +319,18 @@ function switchView(screenName, path){
 function setupOrientationScreen(){
 	$.each(pathContent, function(path, content){
 		var attributes = {
-			'class': 'story ' + path,
+			'class': 'sort story ' + path,
 			'data-id': path,
+			'data-sort': 0,
 			'style': 'background-image:url(' + content.thumbnail + ');'
 		}
 	
-		var elem = $('<div/>').attr( attributes );
-		$('.parent .stories').append( elem );
-		//alert(elem);
-		$('.parent .stories .story.' + path).append('<h3>' + content.name + ' - <span id="' + path + '-distance"></span></h3>');
+		if (content.hide === false) {
+			var elem = $('<div/>').attr( attributes );
+			$('.parent .stories').append( elem );
+			//alert(elem);
+			$('.parent .stories .story.' + path).append('<h3>' + content.name + ' - <span id="' + path + '-distance"></span></h3>');
+		}
 	});
 }
 
@@ -609,6 +612,7 @@ function checkLocation(path, targetLocation, currentPostion){
     if(typeof checkLocation.beenthere == 'undefined'){
         // perform the initialization
         checkLocation.beenthere = [];
+		checkLocation.triggeredpath = [];
     }
     //alert('Checking ' + path + ' (' + targetLocation.lat + ', ' + targetLocation.lon + ') vs. (' + currentPostion.coords.latitude + ', ' + currentPostion.coords.longitude + ')');
     //lat: 42.67759, lon: 23.28596
@@ -619,10 +623,17 @@ function checkLocation(path, targetLocation, currentPostion){
 	var direction = bearingToDirection( p1.bearingTo(p2) );
 	
 	$('#'+path+'-distance').html( feet_away + ' feet ' + direction );
+	$('div[data-id="'+path+'"]').data('sort', feet_away);
+    $('div.sort').sort(function (a, b) {
+      var contentA =parseInt( $(a).data('sort'));
+      var contentB =parseInt( $(b).data('sort'));
+      return (contentA < contentB) ? -1 : (contentA > contentB) ? 1 : 0;
+   });
+	
 
 	//alert( ((p1.distanceTo(p2) * 1000) + ' ' + (p1.bearingTo(p2))) );
 	//if ((p1.distanceTo(p2) * 1000) < 35 || (targetLocation.lat == 42.67759 && targetLocation.lon == 23.28596 && (p1.distanceTo(p2) * 1000) < 5000))
-    if ((p1.distanceTo(p2) * 1000) < 35 || (targetLocation.lat == 21.29979 && targetLocation.lon == -157.81673 && (p1.distanceTo(p2) * 1000) < 5000)) {
+	if ((p1.distanceTo(p2) * 1000) < 35 || (targetLocation.lat == 21.29979 && targetLocation.lon == -157.81673 && (p1.distanceTo(p2) * 1000) < 5000)) {
 	    // tell app we're on-site
 	    //alert('inside cond');
 	    offsite = false;
@@ -636,9 +647,23 @@ function checkLocation(path, targetLocation, currentPostion){
 		//if (screen == 'initial-screen' || screen == 'orientation-screen' || screen == 'offsite-screen' || selectedPath == 'orientation-screen' || selectedPath == '') {
             if (typeof checkLocation.beenthere[path] == "undefined") {
                 //alert('We are switching to ' + path);
-                navigator.vibrate(1000);
-                switchView(false, path);
-                checkLocation.beenthere[path] = true;
+				var go_ahead = true;
+				if (screen != 'initial-screen' && screen != 'orientation-screen' && screen != 'offsite-screen' && selectedPath != '' && screen != 'offsite-screen') {
+					// They are already on an art page.
+					if (typeof checkLocation.triggeredpath[path] == "undefined") {
+						checkLocation.triggeredpath[path] = true;
+						//alert(screen);
+						go_ahead = confirm('You are near ' + pathContent[path].name + '. Would you like to switch to that screen?');
+					}
+				}
+	
+				if (go_ahead) {
+					//alert('going to ' + path);
+					//alert(screen);
+					navigator.vibrate(1000);
+					switchView(false, path);
+					checkLocation.beenthere[path] = true;
+				}
             }
             else {
                 //alert('But, we\'re not going there since we already have been.');

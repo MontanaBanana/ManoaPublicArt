@@ -26,6 +26,7 @@ var pathContent = {};
 pathContent['varney_circle'] = {
 	name:			'Varney Circle',
     details: 		'A fountain run dry',
+	hide:			false,
     //caption: 		'',
     video_image: 	'',
     video_url: 		'', // vimeo video id
@@ -78,6 +79,7 @@ pathContent['varney_circle'] = {
 pathContent['air'] = {
 	name:		'Air',
     details: 		'Hawai\'i\'s first man',
+	hide:			false,
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
@@ -103,6 +105,7 @@ pathContent['air'] = {
 pathContent['earth'] = {
 	name:		'Earth',
     details: 		'About ‘ulu, or breadfruit',
+	hide:			false,
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
@@ -126,6 +129,7 @@ pathContent['earth'] = {
 pathContent['fire'] = {
     name:		'Fire',
     details: 		'Pele and Lohiau, love and betrayal',
+	hide:			false,
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
@@ -151,6 +155,7 @@ pathContent['fire'] = {
 pathContent['water'] = {
     name:		'Water',
     details: 		'Fresh water found in Manoa',
+	hide:			false,
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
@@ -172,8 +177,9 @@ pathContent['water'] = {
 };
 
 pathContent['founders_gate'] = {
-    name:		'Founders Gate',
+    name:		'Founders’ Gate',
     details: 		'An entryway to nowhere',
+	hide:			false,
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
@@ -195,8 +201,9 @@ pathContent['founders_gate'] = {
 };
 
 pathContent['manoa_public_library'] = {
-    name:		'Manoa Public Library',
+    name:		'Spirit of Manoa',
     details: 		'',
+	hide:			false,
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
@@ -217,6 +224,7 @@ pathContent['manoa_public_library'] = {
 pathContent['night_hula'] = {
     name:		'Night Hula',
     details: 		'',
+	hide:			false,
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
@@ -234,8 +242,9 @@ pathContent['night_hula'] = {
 };
 
 pathContent['butterfly_door'] = {
-    name:		'Butterfly door',
+    name:		'Pulelehua',
     details: 		'',
+	hide:			false,
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
@@ -255,6 +264,7 @@ pathContent['butterfly_door'] = {
 pathContent['korean_center'] = {
     name:		'Korean Center',
     details: 		'',
+	hide:			false,
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
@@ -275,6 +285,7 @@ pathContent['korean_center'] = {
 pathContent['gate_of_hope'] = {
     name:		'Gate of Hope',
     details: 		'',
+	hide:			false,
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
@@ -293,6 +304,7 @@ pathContent['gate_of_hope'] = {
 pathContent['monolith'] = {
     name:		'Krypton',
     details: 		'',
+	hide:			false,
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
@@ -315,6 +327,7 @@ pathContent['monolith'] = {
 pathContent['relation_of_man_and_nature'] = {
     name:		'Man and Nature',
     details: 		'',
+	hide:			false,
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
@@ -337,6 +350,7 @@ pathContent['relation_of_man_and_nature'] = {
 pathContent['harvest_celebration'] = {
     name:		"Makahiki Ho'okupu",
     details: 		'Harvest Celebration',
+	hide:			false,
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
@@ -361,6 +375,7 @@ pathContent['harvest_celebration'] = {
 pathContent['maka_io_or_hawks_eye'] = {
     name:		"Maka ‘Io or Hawk’s Eye",
     details: 		'',
+	hide:			false,
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
@@ -381,8 +396,9 @@ pathContent['maka_io_or_hawks_eye'] = {
 };
 
 pathContent['stan_sheriff_center'] = {
-    name:		"Stan Sheriff Center",
+    name:		"Rainbows",
     details: 		'',
+	hide:			false,
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
@@ -403,8 +419,9 @@ pathContent['stan_sheriff_center'] = {
 };
 
 pathContent['campus_center'] = {
-    name:		"Campus Center",
+    name:		"Hawai‘i Ka‘u Kumu",
     details: 		'',
+	hide:			false,
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
@@ -426,6 +443,7 @@ pathContent['campus_center'] = {
 pathContent['loi'] = {
     name:		"Kanewai Loʻi",
     details: 		'',
+	hide:			false,
     //caption: 		'',
     video_image: 	'',
     video_url: 		'',
@@ -444,6 +462,26 @@ pathContent['loi'] = {
     lat: 			21.295605,
     lon: 			-157.812918
 };
+
+pathContent['our_story'] = {
+    name:		"Our Story",
+    details: 		'',
+	hide:			true,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+		{ image: 'O1.png', description: '<small><i>Associate Professor Brett Oppegaard, right, working with graduate students near the Founders’ Gate at UH Manoa in the fall of 2015. The mobile story about the gate, created that semester in the Com 691 class, became one of the first interactive experiences in the Manoa Public Art project. Students have been contributing new work to this project every year since.</i></small><br /><h2>&nbsp;&nbsp;About this project</h2> <p>The Manoa Public Art project began as a class experiment, supported by the local organization Malama Manoa, and since has grown into an expansive effort to chronicle the stories of public artwork in this Honolulu neighborhood, which includes the flagship University of Hawai‘i campus. <br><br>Hawai‘i was the first state in the country to adopt a "Percent for Art" program, requiring at least 1 percent of all money going toward public construction projects to be spent on public art. The Manoa neighborhood, and the University of Hawai‘i at Manoa, in particular, has been a major beneficiary of this law. This mobile app, in turn, is dedicated to promoting public discourse about the public art in this place.</p> <br><h2>&nbsp;&nbsp;Credits</h2><p><strong>Principal Investigator:</strong> Dr. Brett Oppegaard (School of Communications, University of Hawai‘i, brett.oppegaard@hawaii.edu)<br /><br /><strong>Contributors</strong><strong>Air:</strong> Kapiolani Ching and Godwin Polendey<br /><br /><strong>Earth:</strong> Kapiolani Ching and Godwin Polendey<br /><br /><strong>Fire:</strong> Kapiolani Ching and Godwin Polendey<br /><br /><strong>Founders’ Gate:</strong> Marc Arakaki<br /><br /><strong>Gate of Hope:</strong> Brett Oppegaard<br /><br /><strong>Hawai‘i Ka‘u Kumu:</strong> Nicole Tam<br /><br /><strong>Kanewai Lo‘i:</strong> Kaainoa Fernandez<br /><br /><strong>Korean Center:</strong> Brett Oppegaard<br /><br /><strong>Krypton:</strong> Shannon Manamtam<br /><br /><strong>Man and Nature:</strong> Chanel Dias<br /><br /><strong>Maka‘lo or Hawk’s Eye:</strong> Brandon Rivera<br /><br /><strong>Makahiki Ho‘okupu:</strong> Bronson Doria<br /><br /><strong>Night Hula:</strong> Brett Oppegaard<br /><br />	<strong>Pulelehua:</strong> Brett Oppegaard<br /><br /><strong>Rainbows:</strong> Harrison Patino<br /><br /><strong>Spirit of Manoa:</strong> Tracy Kim and Brett Oppegaard<br /><br /><strong>Varney Circle Fountain:</strong> Mari Galiher, Cynthia Arata, and Jim Bea Ildefonso Sampaga<br /><br /><strong>Water:</strong> Kapiolani Ching and Godwin Polendey<br /><br /><strong>Additional imagery:</strong> Courtesy of University of Hawai‘i Archives, through its Digital and Digitized Collections<br /><br /><strong>Additional photography:</strong> Godwin Polendey and Jessica Homrich<br /><br /><strong>Additional reporting:</strong> Jessica Homrich<br /><br /><strong>Additional sources:</strong> The University of Hawai‘i\'s Campus Art brochure, its Campus Heritage Report, and "Building a Rainbow," edited by Victor Kobayashi<br /><br /><strong>Mobile design and development:</strong> Montana Banana Web and Mobile Development, https://montanab.com/<br /><br /><strong>Project sponsor:</strong> Malama Manoa (2015-2016, $2,000; 2016-2017, $2,000; 2018-2019, $2,000)' }, 
+    ],
+    location: 		'Go to UH Manoa’s campus',
+    sharing: 		'',
+    thumbnail: 		'images/our_story/thumbnail.jpg',
+    centerpiece: 	'images/our_story/thumbnail.jpg',
+    geo_location: 	'21.30002,-157.81816',
+    lat: 			21.30002, 
+    lon: 			-157.81816
+};
+
 /**
  * override the lat/long coordinates for each location for local testing
  * set up a block for yourself if testing though keep the others commented out
