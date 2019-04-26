@@ -438,6 +438,8 @@ pathContent['campus_center'] = {
     geo_location: 	'21.298675,-157.818566',
     lat: 			21.298675,
     lon: 			-157.818566
+	//lat: 42.672026,
+	//lon: 23.282936
 };
 
 pathContent['loi'] = {
@@ -461,6 +463,8 @@ pathContent['loi'] = {
     geo_location: 	'21.295605,-157.812918',
     lat: 			21.295605,
     lon: 			-157.812918
+	//lat: 42.678026,
+	//lon: 23.284936
 };
 
 pathContent['our_story'] = {
@@ -477,9 +481,9 @@ pathContent['our_story'] = {
     sharing: 		'',
     thumbnail: 		'images/our_story/thumbnail.jpg',
     centerpiece: 	'images/our_story/thumbnail.jpg',
-    geo_location: 	'21.30002,-157.81816',
-    lat: 			21.30002, 
-    lon: 			-157.81816
+    geo_location: 	'21.29979,-157.81673',
+    lat: 			21.29979, 
+    lon: 		    -157.81673,
 };
 
 /**

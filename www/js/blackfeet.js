@@ -623,17 +623,12 @@ function checkLocation(path, targetLocation, currentPostion){
 	var direction = bearingToDirection( p1.bearingTo(p2) );
 	
 	$('#'+path+'-distance').html( feet_away + ' feet ' + direction );
-	$('div[data-id="'+path+'"]').data('sort', feet_away);
-    $('div.sort').sort(function (a, b) {
-      var contentA =parseInt( $(a).data('sort'));
-      var contentB =parseInt( $(b).data('sort'));
-      return (contentA < contentB) ? -1 : (contentA > contentB) ? 1 : 0;
-   });
-	
-
+	$('div.sort[data-id="'+path+'"]').attr('data-sort', feet_away);
+   
+   sortMeBy("data-sort", "div.stories", "div.sort", "asc");
 	//alert( ((p1.distanceTo(p2) * 1000) + ' ' + (p1.bearingTo(p2))) );
 	//if ((p1.distanceTo(p2) * 1000) < 35 || (targetLocation.lat == 42.67759 && targetLocation.lon == 23.28596 && (p1.distanceTo(p2) * 1000) < 5000))
-	if ((p1.distanceTo(p2) * 1000) < 35 || (targetLocation.lat == 21.29979 && targetLocation.lon == -157.81673 && (p1.distanceTo(p2) * 1000) < 5000)) {
+	if ((p1.distanceTo(p2) * 1000) < 8 || (targetLocation.lat == 21.29979 && targetLocation.lon == -157.81673 && (p1.distanceTo(p2) * 1000) < 5000)) {
 	    // tell app we're on-site
 	    //alert('inside cond');
 	    offsite = false;
@@ -788,4 +783,49 @@ function showLoading() {
 
 function hideLoading() {
 	$('#loading').hide();
+}
+
+
+function sortMeBy(arg, sel, elem, order) {
+        var $selector = $(sel),
+        $element = $selector.children(elem);
+        $element.sort(function(a, b) {
+                var an = parseInt(a.getAttribute(arg)),
+                bn = parseInt(b.getAttribute(arg));
+                if (order == "asc") {
+                        if (an > bn)
+                        return 1;
+                        if (an < bn)
+                        return -1;
+                } else if (order == "desc") {
+                        if (an < bn)
+                        return 1;
+                        if (an > bn)
+                        return -1;
+                }
+                return 0;
+        });
+        $element.detach().appendTo($selector);
+}
+
+function sortMeBy(arg, sel, elem, order) {
+        var $selector = $(sel),
+        $element = $selector.children(elem);
+        $element.sort(function(a, b) {
+                var an = parseInt(a.getAttribute(arg)),
+                bn = parseInt(b.getAttribute(arg));
+                if (order == "asc") {
+                        if (an > bn)
+                        return 1;
+                        if (an < bn)
+                        return -1;
+                } else if (order == "desc") {
+                        if (an < bn)
+                        return 1;
+                        if (an > bn)
+                        return -1;
+                }
+                return 0;
+        });
+        $element.detach().appendTo($selector);
 }
