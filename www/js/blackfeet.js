@@ -630,13 +630,7 @@ function checkLocation(path, targetLocation, currentPostion){
 	//if ((p1.distanceTo(p2) * 1000) < 35 || (targetLocation.lat == 42.67759 && targetLocation.lon == 23.28596 && (p1.distanceTo(p2) * 1000) < 5000))
 	if ((p1.distanceTo(p2) * 1000) < 8 || (targetLocation.lat == 21.29979 && targetLocation.lon == -157.81673 && (p1.distanceTo(p2) * 1000) < 5000)) {
 	    // tell app we're on-site
-	    //alert('inside cond');
 	    offsite = false;
-	    
-        //if (path == 'varney_circle') {
-            //alert('We are close enough to ' + path + ' and we are on screen ' + screen + ' and selectedPath: ' + selectedPath);
-        //}
-        // screen-gallery/
 		
 		// Do this on any screen now.
 		//if (screen == 'initial-screen' || screen == 'orientation-screen' || screen == 'offsite-screen' || selectedPath == 'orientation-screen' || selectedPath == '') {
