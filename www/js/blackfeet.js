@@ -614,50 +614,26 @@ function checkLocation(path, targetLocation, currentPostion){
         checkLocation.beenthere = [];
 		checkLocation.triggeredpath = [];
     }
-    //alert('Checking ' + path + ' (' + targetLocation.lat + ', ' + targetLocation.lon + ') vs. (' + currentPostion.coords.latitude + ', ' + currentPostion.coords.longitude + ')');
-    //lat: 42.67759, lon: 23.28596
-	// (targetLocation.lat == 21.29979 && targetLocation.lon == -157.81673)
-		
-	// $('.parent .stories .story.' + path).append('<h3>' + content.name + ' - <span class="distance-away ' + path + '">200 feet away</span></h3>');	
+   
 	var feet_away = Math.floor(p1.distanceTo(p2) * 1000 * 3.28084);
 	var direction = bearingToDirection( p1.bearingTo(p2) );
 	
 	$('#'+path+'-distance').html( feet_away + ' feet ' + direction );
 	$('div.sort[data-id="'+path+'"]').attr('data-sort', feet_away);
    
-   sortMeBy("data-sort", "div.stories", "div.sort", "asc");
-	//alert( ((p1.distanceTo(p2) * 1000) + ' ' + (p1.bearingTo(p2))) );
-	//if ((p1.distanceTo(p2) * 1000) < 35 || (targetLocation.lat == 42.67759 && targetLocation.lon == 23.28596 && (p1.distanceTo(p2) * 1000) < 5000))
-	if ((p1.distanceTo(p2) * 1000) < 8 || (targetLocation.lat == 21.29979 && targetLocation.lon == -157.81673 && (p1.distanceTo(p2) * 1000) < 5000)) {
+    sortMeBy("data-sort", "div.stories", "div.sort", "asc");
+    if ((p1.distanceTo(p2) * 1000) < 50 || (targetLocation.lat == 21.29979 && targetLocation.lon == -157.81673 && (p1.distanceTo(p2) * 1000) < 5000)) {
 	    // tell app we're on-site
 	    offsite = false;
 		
 		// Do this on any screen now.
-		//if (screen == 'initial-screen' || screen == 'orientation-screen' || screen == 'offsite-screen' || selectedPath == 'orientation-screen' || selectedPath == '') {
-            if (typeof checkLocation.beenthere[path] == "undefined") {
-                //alert('We are switching to ' + path);
-				var go_ahead = true;
-				if (screen != 'initial-screen' && screen != 'orientation-screen' && screen != 'offsite-screen' && selectedPath != '' && screen != 'offsite-screen') {
-					// They are already on an art page.
-					if (typeof checkLocation.triggeredpath[path] == "undefined") {
-						checkLocation.triggeredpath[path] = true;
-						//alert(screen);
-						go_ahead = confirm('You are near ' + pathContent[path].name + '. Would you like to switch to that screen?');
-					}
-				}
-	
-				if (go_ahead) {
-					//alert('going to ' + path);
-					//alert(screen);
-					navigator.vibrate(1000);
-					switchView(false, path);
-					checkLocation.beenthere[path] = true;
-				}
-            }
-            else {
-                //alert('But, we\'re not going there since we already have been.');
-            }
-        //}
+		if (screen == 'initial-screen' || screen == 'orientation-screen' || screen == 'offsite-screen' || selectedPath == 'orientation-screen' || selectedPath == '') {
+			if (typeof checkLocation.beenthere[path] == "undefined") {
+				navigator.vibrate(1000);
+				switchView(false, path);
+				checkLocation.beenthere[path] = true;
+			}
+        }
     
     } else if(screen == 'initial-screen') {
 	    // tell app to no longer switch to the offsite-screen
