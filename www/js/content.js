@@ -259,8 +259,8 @@ pathContent['butterfly_door'] = {
     geo_location: 	'21.3006993,-157.8189403',
     //lat: 			21.3006993,
     //lon: 			-157.8189403
-	lat: 42.677567, 
-	lon: 23.287577
+	lat: 42.676583, 
+	lon: 23.289159
 };
 
 pathContent['korean_center'] = {
