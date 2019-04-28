@@ -28,7 +28,7 @@ header {
 	text-align:center;
 }
 header.ios {
-	padding-top:20px;
+	/*padding-top:20px;*/
 }
 header h1 {
 	display:block;
@@ -201,7 +201,7 @@ footer .controls.buttons .fa.selected {
 	background-position:bottom center;
 }
 .parent .centerpiece.ios {
-	margin-top:70px;
+	/*margin-top:70px;*/
 }
 .parent .centerpiece h2 {
 	/*background:#955d3b;*/
@@ -291,7 +291,7 @@ footer .controls.buttons .fa.selected {
 	padding-top:53px;
 }
 .parent.detail .panel.video.ios {
-	margin-top:20px;
+	/*margin-top:20px;*/
 }
 .parent.detail .sharing,
 .parent.detail .location,
