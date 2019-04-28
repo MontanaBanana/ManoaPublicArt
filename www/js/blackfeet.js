@@ -629,6 +629,8 @@ function checkLocation(path, targetLocation, currentPostion){
 		// Do this on any screen now.
 		if (screen == 'initial-screen' || screen == 'orientation-screen' || screen == 'offsite-screen' || selectedPath == 'orientation-screen' || selectedPath == '') {
 			if (typeof checkLocation.beenthere[path] == "undefined") {
+				alert('path: ' + selectedPath);
+				alert('screen: ' + screen);
 				navigator.vibrate(1000);
 				switchView(false, path);
 				checkLocation.beenthere[path] = true;
