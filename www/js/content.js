@@ -257,10 +257,10 @@ pathContent['butterfly_door'] = {
     thumbnail: 		'images/butterfly_door/thumbnail.jpg',
     centerpiece: 	'images/butterfly_door/thumbnail.jpg',
     geo_location: 	'21.3006993,-157.8189403',
-    //lat: 			21.3006993,
-    //lon: 			-157.8189403
-	lat: 42.677567, 
-	lon: 23.287577
+    lat: 			21.3006993,
+    lon: 			-157.8189403
+	//lat: 42.677567, 
+	//lon: 23.287577
 };
 
 pathContent['korean_center'] = {
@@ -280,10 +280,10 @@ pathContent['korean_center'] = {
     thumbnail: 		'images/korean_center/thumbnail.jpg',
     centerpiece: 	'images/korean_center/thumbnail.jpg',
     geo_location: 	'21.3013692,-157.8143484',
-    //lat: 			21.3013692,
-    //lon: 			-157.8143484
-	lat: 42.677567, 
-	lon: 23.287577
+    lat: 			21.3013692,
+    lon: 			-157.8143484
+	//lat: 42.677567, 
+	//lon: 23.287577
 };
 
 pathContent['gate_of_hope'] = {
@@ -324,10 +324,10 @@ pathContent['monolith'] = {
     thumbnail: 		'images/monolith/thumbnail.jpg',
     centerpiece: 	'images/monolith/thumbnail.jpg',
     geo_location: 	'21.2987556,-157.8160544',
-    //lat: 			21.2987556,
-    //lon: 			-157.8160544
-	lat: 42.676082,
-	lon: 23.288649
+    lat: 			21.2987556,
+    lon: 			-157.8160544
+	//lat: 42.676082,
+	//lon: 23.288649
 };
 
 pathContent['relation_of_man_and_nature'] = {
@@ -397,10 +397,10 @@ pathContent['maka_io_or_hawks_eye'] = {
     thumbnail: 		'images/maka_io_or_hawks_eye/thumbnail.jpg',
     centerpiece: 	'images/maka_io_or_hawks_eye/thumbnail.jpg',
     geo_location: 	'21.294603814465095,-157.81961653718497',
-    //lat: 			21.294603814465095,
-    //lon: 			-157.81961653718497
-	lat: 42.677291, 
-	lon: 23.286973
+    lat: 			21.294603814465095,
+    lon: 			-157.81961653718497
+	//lat: 42.677291, 
+	//lon: 23.286973
 };
 
 pathContent['stan_sheriff_center'] = {
