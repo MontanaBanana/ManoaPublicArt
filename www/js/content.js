@@ -259,8 +259,8 @@ pathContent['butterfly_door'] = {
     geo_location: 	'21.3006993,-157.8189403',
     //lat: 			21.3006993,
     //lon: 			-157.8189403
-	lat: 42.676583, 
-	lon: 23.289159
+	lat: 42.677567, 
+	lon: 23.287577
 };
 
 pathContent['korean_center'] = {
@@ -282,8 +282,8 @@ pathContent['korean_center'] = {
     geo_location: 	'21.3013692,-157.8143484',
     //lat: 			21.3013692,
     //lon: 			-157.8143484
-	lat: 42.676583, 
-	lon: 23.289159
+	lat: 42.677567, 
+	lon: 23.287577
 };
 
 pathContent['gate_of_hope'] = {
