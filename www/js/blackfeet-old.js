@@ -58,7 +58,7 @@ function initializeLayout(){
 			offsite = true;
 			switchView('orientation-screen', false);
 		}
-	}, 10000);
+	}, 15000);
 	
 	$('#offsite-screen .continue').on('click', function(){
 		// tell app to no longer switch to the offsite-screen
@@ -92,7 +92,7 @@ function initializeLayout(){
 	$('footer .fa').on('click', function(){
 
 		var panel = $(this).data('id');
-		
+
 		$('.parent .panel').hide();
 		$('footer .fa').removeClass('selected');
 
@@ -154,74 +154,6 @@ function initializeLayout(){
 			$('.parent.detail .panel.' + panel).show();
 			$(this).addClass('selected');
 		}
-		
-		var switchIndex = null;
-		var keys = [];
-		if (panel == 'left') {
-			var index = 0;
-			for (var property in pathContent) {
-			    if (pathContent.hasOwnProperty(property)) {
-					keys[index] = property;
-					if (property == selectedPath) {
-						//alert(index);
-						if (index == 0) {
-							// go home
-							//alert('left switchView ' + 'home');
-							//switchView('orientation-screen', false);
-							switchIndex = 'orientation-screen';
-						}
-						else {
-							//alert( index );
-							//alert('left switchView ' + keys[index-1]);
-							//switchView(keys[index-1]);
-							switchIndex = index-1;
-						}
-					}
-					index++;
-			    }
-			}
-		}
-		
-		if (panel == 'right') {
-			var index = 0;
-			for (var property in pathContent) {
-			    if (pathContent.hasOwnProperty(property)) {
-					keys[index] = property;
-					if (property == selectedPath) {
-						//alert(index);
-						//alert(Object.keys(pathContent).length);
-						if (index == Object.keys(pathContent).length-1) {
-							// go home
-							//alert('right switchView ' + 'home');
-							//switchView('orientation-screen', false);
-							switchIndex = 'orientation-screen';
-						}
-						else {
-							//alert('right switchView ' + keys[index+1]);
-							//switchView(keys[index+1]);
-							switchIndex = index+1;
-						}
-					}
-					index++;
-			    }
-			}
-		}
-		
-		//alert(keys[switchIndex]);
-		//alert(switchIndex); 
-		if (switchIndex == 'orientation-screen' || isNumeric(switchIndex)) {
-			if (switchIndex == 'orientation-screen') {
-				//alert('switching to orientation-screen');
-				switchView('orientation-screen', false);
-				//openPath('home');
-			}
-			else {
-				//alert('switching to ' + keys[switchIndex]);
-				switchView(false, keys[switchIndex]);
-				//alert('opening path to: ' + switchIndex + ' ' + keys[switchIndex]);
-				//openPath(keys[switchIndex], false);
-			}
-		}
 			
 		window.scrollTo(0, 0);
 
@@ -260,10 +192,6 @@ function initializeLayout(){
 			window.plugins.socialsharing.share('Sharing a photo from the Manoa Public Art app! #manoapublicart', 'Manoa Public Art', $('#postcard-picture-maka').attr('src'), $('#postcard-picture-maka').attr('src'));
 			//window.plugins.socialsharing.share('Sharing a photo from Yellowstone! #yellowstone', 'Yellowstone', postcardUrl, postcardUrl);
 	});
-}
-
-function isNumeric(n) {
-  return !isNaN(parseFloat(n)) && isFinite(n);
 }
 
 /**
@@ -319,18 +247,14 @@ function switchView(screenName, path){
 function setupOrientationScreen(){
 	$.each(pathContent, function(path, content){
 		var attributes = {
-			'class': 'sort story ' + path,
+			'class': 'story ' + path,
 			'data-id': path,
-			'data-sort': 0,
 			'style': 'background-image:url(' + content.thumbnail + ');'
 		}
 	
-		if (content.hide === false) {
-			var elem = $('<div/>').attr( attributes );
-			$('.parent .stories').append( elem );
-			//alert(elem);
-			$('.parent .stories .story.' + path).append('<h3>' + content.name + ' - <span id="' + path + '-distance"></span></h3>');
-		}
+		var elem = $('<div/>').attr( attributes );
+		$('.parent .stories').append( elem );
+		$('.parent .stories .story.' + path).append('<h3>' + content.name + '</h3>');
 	});
 }
 
@@ -541,9 +465,9 @@ function captureSuccess(mediaFiles){
 }
 
 function captureError(error){
-    //var msg = 'An error occurred during capture: ' + error.code;
-    //navigator.notification.alert(msg, null, 'Uh oh!');
-	//alert(msg);
+    var msg = 'An error occurred during capture: ' + error.code;
+    navigator.notification.alert(msg, null, 'Uh oh!');
+	alert(msg);
     
     // reset sharing media type
     sharingMediaType = '';
@@ -612,29 +536,30 @@ function checkLocation(path, targetLocation, currentPostion){
     if(typeof checkLocation.beenthere == 'undefined'){
         // perform the initialization
         checkLocation.beenthere = [];
-		checkLocation.triggeredpath = [];
     }
-   
-	var feet_away = Math.floor(p1.distanceTo(p2) * 1000 * 3.28084);
-	var direction = bearingToDirection( p1.bearingTo(p2) );
-	
-	$('#'+path+'-distance').html( feet_away + ' feet ' + direction );
-	$('div.sort[data-id="'+path+'"]').attr('data-sort', feet_away);
-   
-    sortMeBy("data-sort", "div.stories", "div.sort", "asc");
+
+    //alert('Checking ' + path + ' (' + targetLocation.lat + ', ' + targetLocation.lon + ') vs. (' + currentPostion.coords.latitude + ', ' + currentPostion.coords.longitude + ')');
+
     if ((p1.distanceTo(p2) * 1000) < 50 || (targetLocation.lat == 21.29979 && targetLocation.lon == -157.81673 && (p1.distanceTo(p2) * 1000) < 5000)) {
 	    // tell app we're on-site
+	    //alert('inside cond');
 	    offsite = false;
-		
-		// Do this on any screen now.
+	    
+
+        if (path == 'varney_circle') {
+            //alert('We are close enough to ' + path + ' and we are on screen ' + screen + ' and selectedPath: ' + selectedPath);
+        }
+        // screen-gallery/
 		if (screen == 'initial-screen' || screen == 'orientation-screen' || screen == 'offsite-screen' || selectedPath == 'orientation-screen' || selectedPath == '') {
-			if (typeof checkLocation.beenthere[path] == "undefined") {
-				//alert('path: ' + selectedPath);
-				//alert('screen: ' + screen);
-				navigator.vibrate(1000);
-				switchView(false, path);
-				checkLocation.beenthere[path] = true;
-			}
+            if (typeof checkLocation.beenthere[path] == "undefined") {
+                //alert('We are switching to ' + path);
+                navigator.notification.vibrate(1000);
+                switchView(false, path);
+                checkLocation.beenthere[path] = true;
+            }
+            else {
+                //alert('But, we\'re not going there since we already have been.');
+            }
         }
     
     } else if(screen == 'initial-screen') {
@@ -664,16 +589,16 @@ function onGeolocationError(error){
     console.log(error);
     if(error.message == 'GPS provider disabled.'){
         var msg = 'Your GPS is currently disabled. Please turn your GPS on.';
-		//navigator.notification.alert(msg, null, 'Uh oh!');
-		//alert(msg); 
+		navigator.notification.alert(msg, null, 'Uh oh!');
+		alert(msg); 
 		 
-        //switchView('offsite-screen', false);
+        switchView('offsite-screen', false);
     }
 
     
-    //if(offsite == false){
-		//switchView('offsite-screen', false);
-	//}
+    if(offsite == false){
+		switchView('offsite-screen', false);
+	}
 }
 
 function onGeolocationSuccess(position){
@@ -755,49 +680,4 @@ function showLoading() {
 
 function hideLoading() {
 	$('#loading').hide();
-}
-
-
-function sortMeBy(arg, sel, elem, order) {
-        var $selector = $(sel),
-        $element = $selector.children(elem);
-        $element.sort(function(a, b) {
-                var an = parseInt(a.getAttribute(arg)),
-                bn = parseInt(b.getAttribute(arg));
-                if (order == "asc") {
-                        if (an > bn)
-                        return 1;
-                        if (an < bn)
-                        return -1;
-                } else if (order == "desc") {
-                        if (an < bn)
-                        return 1;
-                        if (an > bn)
-                        return -1;
-                }
-                return 0;
-        });
-        $element.detach().appendTo($selector);
-}
-
-function sortMeBy(arg, sel, elem, order) {
-        var $selector = $(sel),
-        $element = $selector.children(elem);
-        $element.sort(function(a, b) {
-                var an = parseInt(a.getAttribute(arg)),
-                bn = parseInt(b.getAttribute(arg));
-                if (order == "asc") {
-                        if (an > bn)
-                        return 1;
-                        if (an < bn)
-                        return -1;
-                } else if (order == "desc") {
-                        if (an < bn)
-                        return 1;
-                        if (an > bn)
-                        return -1;
-                }
-                return 0;
-        });
-        $element.detach().appendTo($selector);
 }
