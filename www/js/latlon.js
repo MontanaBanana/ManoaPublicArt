@@ -412,7 +412,7 @@ function bearingToDirection(wd)
 
     if (wd > 11.25 && wd <= 33.75)
     {
-        dir = "NNE";
+        dir = "N-NE";
     }
 
     if (wd > 33.75 && wd <= 56.25)
@@ -422,7 +422,7 @@ function bearingToDirection(wd)
 
     if (wd > 56.25 && wd <= 78.75)
     {
-        dir = "ENE";
+        dir = "E-NE";
     }
 
     if (wd > 78.75 && wd <= 101.25)
@@ -432,7 +432,7 @@ function bearingToDirection(wd)
 
     if (wd > 101.25 && wd <= 123.75)
     {
-        dir = "ESE";
+        dir = "E-SE";
     }
 
     if (wd > 123.75 && wd <= 146.25)
@@ -442,7 +442,7 @@ function bearingToDirection(wd)
 
     if (wd > 146.25 && wd <= 168.75)
     {
-        dir = "SSE";
+        dir = "S-SE";
     }
 
     if (wd > 168.75 && wd <= 191.25)
@@ -452,7 +452,7 @@ function bearingToDirection(wd)
 
     if (wd > 191.25 && wd <= 213.75)
     {
-        dir = "SSW";
+        dir = "S-SW";
     }
 
     if (wd > 213.75 && wd <= 236.25)
@@ -462,7 +462,7 @@ function bearingToDirection(wd)
 
     if (wd > 236.25 && wd <= 258.75)
     {
-        dir = "WSW";
+        dir = "W-SW";
     }
 
     if (wd > 258.75 && wd <= 281.25)
@@ -472,7 +472,7 @@ function bearingToDirection(wd)
 
     if (wd > 281.25 && wd <= 303.75)
     {
-        dir = "WNW";
+        dir = "W-NW";
     }
 
     if (wd > 303.75 && wd <= 326.25)
@@ -482,7 +482,7 @@ function bearingToDirection(wd)
 
     if (wd > 326.25 && wd <= 348.75)
     {
-        dir = "NNW";
+        dir = "N-NW";
     }
 
     return dir;

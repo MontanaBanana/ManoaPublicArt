@@ -1,17 +1,20 @@
 {
   "name": "com.mobilemediamatters.manoa",
-  "version": "2.5.0",
+  "version": "4.0.0",
   "displayName": "Manoa",
   "cordova": {
     "platforms": [
-      "browser",
-      "android"
+      "android",
+      "ios",
+      "browser"
     ],
     "plugins": {
       "cordova-plugin-device": {},
       "cordova-plugin-file": {},
       "cordova-plugin-file-transfer": {},
-      "cordova-plugin-geolocation": {},
+      "cordova-plugin-geolocation": {
+        "GEOLOCATION_USAGE_DESCRIPTION": "Your current location will be used for determining if you are near the artwork."
+      },
       "cordova-plugin-media": {},
       "cordova-plugin-media-capture": {},
       "cordova-plugin-network-information": {},
@@ -30,7 +33,8 @@
   "dependencies": {
     "cordova-android": "^7.1.4",
     "cordova-base64-to-gallery": "~4.1.3",
-    "cordova-browser": "~5.0.3",
+    "cordova-browser": "^5.0.4",
+    "cordova-ios": "^4.5.5",
     "cordova-plugin-camera": "~3.0.0",
     "cordova-plugin-canvas2image": "~0.7.0",
     "cordova-plugin-device": "~1.1.7",
