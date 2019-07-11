@@ -621,7 +621,7 @@ pathContent['diverse_unity'] = {
 };
 
 pathContent['imperial_vase'] = {
-    name:		'imperial_vase',
+    name:		'Imperial Vase',
 	subtitle: 	'Inside John Burns Hall',
     details: 		'',
 	hide:			false,
