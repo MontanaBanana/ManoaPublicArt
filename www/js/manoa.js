@@ -424,8 +424,13 @@ function setupDetailDiv(path){
 		var gallery_html = '';
 		for (var i = 0; i < content.gallery_images.length; i++) {
 			gallery_html += '<div class="gallery_image">';
-			if (content.gallery_images[i].image.length > 0) { 
-				gallery_html += '<img src="images/' + path + '/' + content.gallery_images[i].image + '" />';
+			if (content.gallery_images[i].image) { 
+				if (content.gallery_images[i].image.match(/http/)) {
+					gallery_html += '<img src="' + content.gallery_images[i].image + '" />';
+				}
+				else {
+					gallery_html += '<img src="images/' + path + '/' + content.gallery_images[i].image + '" />';
+				}
 			}
 			if (content.gallery_images[i].caption) {
 				gallery_html += '<i style="padding-left: 10px; padding-right: 10px; display: block;">'+content.gallery_images[i].caption+'</i>';
