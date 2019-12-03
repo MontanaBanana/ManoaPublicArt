@@ -841,14 +841,17 @@ pathContent['kamakakuokalani'] = {
     gallery_images: [
 	{ image: 'https://api.montanab.com/ManoaPublicArt/images/kamakakuokalani/K1.jpg', headline: 'A mural in multiple dimensions', description: 'Greeting you as you walk up the steps of the Kamakakuokalani Center for Hawaiian Studies is a mural carved right into the building’s walls. Hewn from basalt and carved using resin, the massive piece illustrates the “Kumulipo” or the sacred creation chant of Native Hawaiians.' },
 	{ image: 'https://api.montanab.com/ManoaPublicArt/images/kamakakuokalani/K2.jpg', headline: 'Can you identify the myths?', description: 'Throughout the piece, created by Ipo Nihipali in 2002, are several mythological figures that play key roles in Native Hawaiian myths and ancestry.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/kamakakuokalani/K3.jpg', headline: '', description: 'Born in Honolulu and raised in Wahiawa, “Kumulipo” artist Ipo Nihipali uses a style that could be described as whimsical and extremely detailed. ' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/kamakakuokalani/K4.jpg', headline: '', description: 'This piece honors our island landscape from the sea to the mountains, through portrayals of both the real and the esoteric. ' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/kamakakuokalani/K5.jpg', headline: '', description: 'This style combines contemporary magic realism with aesthetics of the so-called “primitive painters.”' },
     ],
     location: 		'Kamakakuokalani Center',
     sharing: 		'Share your story',
     thumbnail: 		'images/kamakakuokalani/thumbnail.jpg',
     centerpiece: 	'images/kamakakuokalani/thumbnail.jpg',
-    geo_location: 	'21.2949791,-157.8140233', 
-    lat: 			21.2949791,
-    lon: 		    -157.8140233
+    geo_location: 	'21.30493,-157.85788', 
+    lat: 			21.30493,
+    lon: 		    -157.85788
 };
 
 pathContent['whorl'] = {
@@ -1661,8 +1664,28 @@ pathContent['rainbow_spirit'] = {
     video_image: 	'',
     video_url: 		'',
     gallery_images: [
-	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit/R1.jpg', headline: 'Neon and copper', description: '“Rainbow Spirit” is intended to instill some sort of mystery, magic, and excitement in the air around a big game.' },
-	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit/R2.jpg', headline: 'Togetherness as a symbol', description: 'It was created by Barbara Miyano-Young in 1998 and is part of the Hawaii State Foundation on Culture and the Arts. She stated she wanted to mirror the togetherness of athletics.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit2/R1.jpg', headline: '', description: 'Did you know that when the sun goes down, Rainbow Spirit actually lights up? If you aren’t able to view this sculpture at night, click the Video link below to see what it looks like. <iframe width="560" height="315" src="https://www.youtube.com/embed/mhArUIku0KM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' },
+	{ image: '', headline: '', description: 'Rainbow Spirit can be seen from the practice room for the University of Hawaii at Manoa cheerleaders. For this reason, they have developed a very special connection to the art piece, and over the years, they have developed a special tradition that dates back to 1998. Click the video below to hear from the Cheerleading Coach, Michael Baker, on how it all got started. <iframe width="560" height="315" src="https://www.youtube.com/embed/7-sKIKzDsW8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' },
+	{ image: '', headline: '', description: 'Kealoha Feliciano is an 8-year veteran of the University of Hawaii Cheerleading team. He is a leader within the program and has been able to participate in the Rainbow photo tradition for many years. Click the video below for his perspective on Rainbow Spirit. <iframe width="560" height="315" src="https://www.youtube.com/embed/68Kl6kARIvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' },
+	{ image: '', headline: '', description: 'Karlee Shay is a freshman and a first-year participant on the Cheerleading team. Although she has not been able to participate in the rainbow photo tradition before, it has been her dream to be on the Hawaii Cheerleading team since she was in seventh grade. Before making the team, she followed the Hawaii Cheer Instagram page closely and has seen the team photos at the statue. Click below for her perspective on the Rainbow Statue. <iframe width="560" height="315" src="https://www.youtube.com/embed/8npBSL0tpa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' },
+	{ image: '', headline: '', description: 'If you are curious about what some of these team photos look like, pick a year below from 1997 to 2019. You can see how the people, the uniforms, and style changes, but the one thing that has remained the same is the iconic Rainbow Spirit.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit2/1996-7.jpg', headline: '', description: '' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit2/1997-98.jpg', headline: '', description: '' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit2/1998-99.jpg', headline: '', description: '' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit2/2003-4.JPG', headline: '', description: '' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit2/2004-5.jpg', headline: '', description: '' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit2/2005-6.JPG', headline: '', description: '' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit2/2007-8.JPG', headline: '', description: '' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit2/2009-10.JPG', headline: '', description: '' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit2/2010-11.JPG', headline: '', description: '' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit2/2012-13.JPG', headline: '', description: '' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit2/2013-14.JPG', headline: '', description: '' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit2/2014-15.JPG', headline: '', description: '' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit2/2015-16.JPG', headline: '', description: '' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit2/2016-17.JPG', headline: '', description: '' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit2/2017-18.jpg', headline: '', description: '' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit2/2018-19.jpg', headline: '', description: '' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rainbow_spirit2/2019-20.jpg', headline: '', description: '' },
     ],
     location: 		'In front of Stan Sheriff Center',
     sharing: 		'Share your story',
@@ -1841,6 +1864,192 @@ pathContent['chance'] = {
     lon: 		    -157.818108
 };
 
+pathContent['frear_hall'] = {
+    name:		'Frear Hall',
+	subtitle: 	'',
+    details: 		'',
+	hide:			false,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/frear_hall/F1.jpg', headline: '', description: 'The last remaining piece of the original Frear Hall can be found in the lobby of the current Frear Hall, in the Student Housing Services campus. This mosaic – most likely created by Jean Charlot, a prominent UH Manoa art professor – is from 1952.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/frear_hall/F2.jpg', headline: '', description: 'The mosaic somewhat echoes the Mayan art style that Charlot loved to recreate. At the same time, he uses elements of line and light to add depth to the piece. It features two fish that resemble Indo-Pacific sergeant (Abudefduf vaigiensis). These do not look like fish found around Hawaii, so they likely relate to Charlot\'s travels around the world. Up close, you can see how Charlot reverses the color scheme in the bubble to achieve the bubble’s shape and depth.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/frear_hall/F3.jpg', headline: '', description: 'This 1952 photo shows the mosaic intact in 1952. ' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/frear_hall/F4.jpg', headline: '', description: 'When the desk was remodeled in the 1950s, several of the parts of this mosaic were separated and put into storage. These photos show the slabs of concrete currently sitting in a utiliy closet in the basement of Frear Hall today. Will they ever all be brought back together? This artwork was created by George Segal in 1992, and it is part of the Art in Public Places Program.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/frear_hall/F5.jpg', headline: '', description: '' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/frear_hall/F6.jpg', headline: '', description: '' },
+    ],
+    location: 		'Frear Hall',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/frear_hall/thumbnail.jpg',
+    centerpiece: 	'images/frear_hall/thumbnail.jpg',
+    geo_location: 	'21.295556,-157.813889', 
+    lat: 			21.295556,
+    lon: 		    -157.813889
+};
+
+pathContent['stevenson_hut'] = {
+    name:		'Stevenson Hut',
+	subtitle: 	'',
+    details: 		'',
+	hide:			false,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/stevenson_hut/S1.jpg', headline: '', description: 'Author Robert Louis Stevenson visited Hawaii from 1889-1893, and while he was here, he formed a friendship with Princess Ka’iulani. It has been rumored that the two had a romantic relationship because of the poem “The Island Rose” that Stevenson wrote for Ka’iulani, but that has not been confirmed. While in Hawaii, Stevenson resided in what is referred to today as “The Stevenson Hut.”  The Stevenson Hut is made out of Native Hawaiian Pili Grass to showcase what the hut looked like. The hut that stands at the Waioli Tea Room in Manoa today is a replica.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/stevenson_hut/S2.jpg', headline: '', description: 'Inside the Stevenson Hut, furniture is displayed in a way that Stevenson might have kept his home. A copy of “Treasure Island,” his most famous book, is on the table.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/stevenson_hut/S3.jpg', headline: '', description: 'The owner of the estate on which Stevenson resided while living in Hawaii, Archibald Cleghorn, had a daughter, Ka’iulani. Ka’iulani left Hawaii toward the end of Stevenson’s time on Hawaii to study in Scotland, where Stevenson was originally from. It was rumored that Stevenson fell in love with Princess Ka’iulani, which would have been a controversial cultural match considering Ka’iulani’s half-Hawaiian, half-caucasian heritage and the fact that she was only 14 and Stevenson was 39.' },
+	{ image: '', headline: '', description: '<audio controls><source src="images/stevenson_hut/monolith.mp3" type="audio/mpeg"></audio> <br /><br />Recorded at the Stevenson Hut in Manoa, by the author of this piece, Anna Barrett, a graduate student in the School of Communications in 2019, this is a reading of the poem that Robert Louis Stevenson wrote for Princess Ka’iulani. The poem is nostalgic, romantic and reminiscent of a lover who is missing their love. In the recording, you can hear sounds of children playing nearby, which is fitting, since a middle school nearby is named after the author. ' },
+    ],
+    location: 		'Stevenson Hut',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/stevenson_hut/thumbnail.jpg',
+    centerpiece: 	'images/stevenson_hut/thumbnail.jpg',
+    geo_location: 	'21.3162,-157.8121', 
+    lat: 			21.3162,
+    lon: 		    -157.8121
+};
+
+pathContent['mayan_warrior'] = {
+    name:		'Mayan Warrior',
+	subtitle: 	'',
+    details: 		'',
+	hide:			false,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/mayan_warrior/M1.jpg', headline: '', description: '<p>You might recognize two of the 20th Century’s most famous artists in this photo, hanging out with Jean Charlot, a University of Hawaii art professor. We do not know the occasion, but we do know that the image was taken in the Palace of Cortés’ corridor where Diego Rivera’s mural of “Conquest of México, History of Cuernavaca and Morelos” (1930) hangs over the group.</p><p>Charlot was a French painter and naturalized American citizen who actively worked in Mexico and the United States. On his mother’s side of the family, Charlot’s great-grandfather immigrated to Mexico, and his grandfather was a mestizo. This mixed heritage created a fascination in Charlot about Mexican culture. </p><p>Here is what we know about the people in the photo, from left to right: Dr. Leo Eloesser, Frances F. Payne, Frida Kahlo, Jean Charlot, Elie Faure, Diego Rivera. Cuernavaca, August of 1931. Courtesy of the Rockefeller Archive Center.</p><ul><li>Dr. Leo Eloesser: A thoracic surgeon; Kahlo’s lifelong friend and medical advisor.</li><li>Frances Flynn Payne: A professional conservator-restorer of Mexican artifacts and art for the Rockefeller family.</li><li>Frida Kahlo: Mexican painter known for her Mexican-inspired portraits and self-portraits.</li><li>Elie Faure: French art historian and essayist.</li><li>Diego Rivera: Mexican painter (husband to Kahlo) whose art helped to establish Mexican muralism.</li></ul><p>Upon his arrival to Mexico in the early 1920s, Charlot became involved, along with Diego Rivera, in the Mexican muralist movement. Between 1926 and 1928, Charlot worked as an archaeologist in the Mayan temples at Chichen Itza. This experience had a major influence on his artwork.</p>' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/mayan_warrior/M2.gif', headline: '', description: '<p>Years after working in Mexico and other states within the U.S., Charlot arrived in Honolulu in 1949 and taught at the University of Hawaii at Manoa, where he stayed for 30 years, until his death in 1979. His work can be found around the islands, such as in the Hawaii State Art Museum, the Honolulu Museum of Art, the Isaacs Art Center in Waimea, and in Hamilton Library at UH Manoa.</p><p>The “Mayan Warrior” (1970) is one of nine acrylic-painted masonite images that represent Charlot’s close involvement with major archaeological work at ancient Mayan sites in the Yucatán Peninsula in Mexico. The 36-foot mural rarely has been seen since Charlot painted it for the ethnobotanical exposition, "Flora Pacifica," which was held at the Blaisdell Center in 1970. Today, it is part of Hamilton Library’s special collections in the Archives & Manuscripts Department. </p>' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/mayan_warrior/M3.jpg', headline: '', description: '<p>Charlot’s fascination with Mayan art and indigenous Mexican culture is portrayed through his bold use of colors. In addition, his signature abstraction of the human figures included geometrical shapes, curves, cubes and cylinders, as can be seen through the Mayan Warrior murals.</p><p>Eight of the nine Mayan Warrior murals are being kept in storage in the Architecture Building. The only painting not under UH care is the centerpiece, which is the corn painting. </p><p>The Jean Charlot Collection is a standalone unit located across the hall from the Hawaiian/Pacific Collection on the fifth floor of the Hamilton Library; the Mayan Warrior is used to mark the collection’s entrance.</p><p>For more about Jean Charlot, contact: Jean Charlot Collection, 808-956-2849 or <a href="http://manoa.hawaii.edu/library/research/collections/charlot-collection/" target="_blank">visit the Charlot website</a></p><p>The other Mayan Warriors paintings can be <a href="https://jeancharlot.org/murals-sculpture/usa_hi_oahu_honolulu_uhm_1970_mayan.html" target="_blank">seen here</a>.' },
+	{ image: '', headline: '', description: '' },
+    ],
+    location: 		'Mayan Warrior',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/mayan_warrior/thumbnail.jpg',
+    centerpiece: 	'images/mayan_warrior/thumbnail.jpg',
+    geo_location: 	'21.3162,-157.8121', 
+    lat: 			21.3162,
+    lon: 		    -157.8121
+};
+
+pathContent['waikiki_mural'] = {
+    name:		'Waikiki Mural',
+	subtitle: 	'',
+    details: 		'',
+	hide:			false,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/waikiki_mural/W1.png', headline: '', description: '<p>This mural is depicting Diamond Head and Waikiki, as it was in 1919. What differences do you notice when comparing this painting to what Diamond Head and Waikiki look like today?</p>' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/waikiki_mural/W2.png', headline: 'Closeup of Diamond Head', description: '<img src="https://api.montanab.com/ManoaPublicArt/images/waikiki_mural/W2b.png" /><p>Here is a closeup photo of this same mural. This depicts what the Waikiki skyline must have looked like when the artist, Frank M. Moore, painted it. Now, swipe to see photographic evidence of what a similar shot of the south shore actually looked like circa 1920. </p>' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/waikiki_mural/W3.jpg', headline: 'The Perfect Wave', description: 'The mural to the left of the lobby depicts what Moore thought of as “the perfect wave.” This gorgeous painting, along with the other two murals, once were displayed in the Old Blaisdell Hotel in downtown Honolulu (which has since shut down). In the first half of the 20th century, this photo must have welcomed and excited travelers who had come to Hawaii to experience the pristine natural environment, and some “perfect waves.” ' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/waikiki_mural/W4.png', headline: 'Context shot of South shore', description: 'This mural is a depiction of Oahu’s South Shore, from the perspective of the water. Imagine it’s sunset, and you are out on a sailboat today. If you were looking at this exact same scene, what similarities would you see between this 1919 depiction and the modern shoreline?' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/waikiki_mural/W5.png', headline: 'Lights on the ridge', description: 'This is a close up photo of the same mural. There are no large office buildings, hotels, restaurants, and malls, but notice the subtle hint of civilization from the glowing lights along the water, and the dots of lights scattered up one of Honolulu’s ridges. Do you know how many people lived in Honolulu at the time this was painted (according to the 1920 census)? Take a guess.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/waikiki_mural/W6.jpg', headline: 'Aerial photo of Ridges and Valleys in Honolulu', description: 'This is an aerial photograph that shows Honolulu from above, and at a distance, including Diamond Head, parts of Waikiki, and many ridges and valleys. Compare this photo from June 2015 to Moore’s 1919 mural. Compared to the few, subtle, scattered lights in his murals, it is clear to see how much not only the residential areas have expanded. These trends reflect the overall population boom that has occurred since the murals’ inception in the early 20th century. ' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/waikiki_mural/W7.jpg', headline: 'Aerial photo of Waikiki and Diamond Head', description: '<i><small>Photo licensed for reuse. From: <a href="https://www.goodfreephotos.com/united-states/hawaii/honolulu/view-from-waikiki-beach- in-honolulu-hawaii.jpg.php">https://www.goodfreephotos.com/united-states/hawaii/honolulu/view-from-waikiki-beach- in-honolulu-hawaii.jpg.php</a></small></i><p>This is a photograph that is similar to the perspective of the first mural (of Diamond Head and Waikiki). This photo was taken recently and shows what that same skyline looks like today. In addition to the overall population growth of Honolulu over the past 100 years, globalization has lead to a booming tourism industry. Here on O’ahu, much of the pristine shoreline has been developed for commercial interests. Considering the fact that these murals once belonged inside a hotel in Honolulu, juxtapose the 1919 depiction of the South Shore, when used as artwork to please tourists in an early 20th Century hotel, with the modern-day depiction of what the tourism industry’s effects on the South Shore looks like. The Waikiki that exists today is filled with highrise hotels, shopping stores, restaurants, and people who come from all over the world to experience O’ahu’s beautiful natural beaches and mountains, yet it is this industrialization and commercialization of the island that takes away from the island’s natural beauty.' },
+    ],
+    location: 		'',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/waikiki_mural/thumbnail.jpg',
+    centerpiece: 	'images/waikiki_mural/thumbnail.jpg',
+    geo_location: 	'21.2964,-157.8178', 
+    lat: 			21.2964,
+    lon: 		    -157.8178
+};
+
+pathContent['gathering_of_chiefs'] = {
+    name:		'Gathering of Chiefs',
+	subtitle: 	'',
+    details: 		'',
+	hide:			false,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/gathering_of_chiefs/C1.jpg', headline: '', description: '<p>“The Gathering of Chiefs” is a painting by local artist Brooke Kapukuniahi-Parker. It is hung inside of the UH Manoa Rainbow Warriors’ locker room, on lower campus, with viewing available by appointment (email: teric@hawaii.edu). Historically, each Hawaiian was born into a social class, and at the top, were the rulers, a small but powerful class of chiefs known as the aliʻi. In those days, the aliʻi was the government. Parker gave the UH football team the paiting because he wanted to start a new tradition, as a way to symbolize the gathering of great warriors to protect this land from anyone who stands in their way. As a part of this tradition, each member of the football team looks into the eyes of each individual chief to feel the “Mana” pouring out of the painting.</p>' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/gathering_of_chiefs/C2.jpg', headline: '', description: '<p>Upon entering the University of Hawaii football locker room, you will follow the rows of locker cubbies on the right-hand side, until you see the beautiful painting on the right.  Besides this painting on the left, you will see a handcrafted piece of Koa wood that you can touch and feel while looking into this painting, so that you can transfer your energy into those who will touch it next. The mana is a symbol of the power of the Hawaiian people, while also serving as power for those in support of the culture itself. This mana doesn’t come from the wood or painting themselves, yet serves as a spiritual passageway from those who have felt it before you. This piece of art goes hand in hand with the painting as it gives the viewer something to touch or feel when seeing these Chiefs. Martin & MacArthur, a local company, supplied the koa for this project and chose a piece that would fit proportionally to the painting.</p>' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/gathering_of_chiefs/C3.jpg', headline: 'PHOTO CREDIT: Courtesy of “Warrior Beat” media', description: 'The artist, Brooke, can be seen in this photo introducing the painting to the Rainbow Warriors after an emotional ceremony. During the ceremony, the warriors were embraced by past alumni and those who have been around the program for years. At this time, they were told the stories of the struggle chiefs had and about the resilience it took to overcome adversity. The group then gathered one last time in prayer and everyone touched the koa before leaving campus that night. Thus, began the new tradition of sharing this piece with the team, and all those who support it, for years to come. Since 2018, the Warriors touch the wood every day when they leave the locker room to practice. ' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/gathering_of_chiefs/C4.jpg', headline: '', description: 'Players individually touch the Koa wood and look into the eyes of each chief. It was said that some chiefs catch the attention of different people, almost like it is calling to them. Which chief calls to you as you touch this screen.' },
+    ],
+    location: 		'',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/gathering_of_chiefs/thumbnail.jpg',
+    centerpiece: 	'images/gathering_of_chiefs/thumbnail.jpg',
+    geo_location: 	'21.2940,-157.8180', 
+    lat: 			21.2940,
+    lon: 		    -157.8180
+};
+
+pathContent['punahou'] = {
+    name:		'The Legend of Ka Punahou',
+	subtitle: 	'',
+    details: 		'',
+	hide:			false,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/punahou/P1.jpg', headline: '', description: 'When the doors opened to the Omidyar K-1 Neighborhood in August 2010, as part of the final touches, students partnered with artist and Punahou alumna Lia Kilpatrick Rigg (’86) to create a mural. The Kindergarten (Class of 2023) and Grade 1 (Class of 2022) students, and their teachers drew contour drawing of things that belonged to the ahupua’a. Each student created clay pieces that were incorporated in the mural to tell the story of The Legend of Ka Punahou. Omidyar K-1 Neighborhood includes the construction of five new buildings and the renovation of Wilcox Hall. The Omidyar K-1 Neighborhood is named for Pierre Omidyar (‘84) and his wife Pam.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/punahou/P2.jpg', headline: '', description: 'Long ago, according to legend, an aged Hawaiian couple lived on the slope of Rocky Hill, above the present campus, and had to travel far for water. They prayed for a spring. In a dream answering their prayers, they were told to uproot the stump of an old hala tree. They did as they were told and found a spring of clear, sweet water, which they named Ka Punahou, the New Spring. This legend lives on in the Punahou seal with the hala tree and two taro leaves.<br /><br /><iframe width="560" height="315" src="https://www.youtube.com/embed/eeZbMGoc9oQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/punahou/P3.jpg', headline: '', description: 'The symbol that perhaps most closely qualifies as a school mascot is the hala tree, whose image is used in the school\'s seal. ' },
+    ],
+    location: 		'',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/punahou/thumbnail.jpg',
+    centerpiece: 	'images/punahou/thumbnail.jpg',
+    geo_location: 	'21.3045,-157.8265', 
+    lat: 			21.3045,
+    lon: 		    -157.8265
+};
+
+pathContent['rotc'] = {
+    name:		'AF ROTC',
+	subtitle: 	'',
+    details: 		'',
+	hide:			false,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rotc/R1.jpg', headline: '', description: 'There is a commemorative bench in front of the University of Hawaii at Manoa - Air Force Reserve Officer Training Corps (AF ROTC) portable classrooms. These buildings are one of the three primary commissioning sources for local officers in the Air Force. The bench is under a plumeria tree, so it is always provides shade. It is also placed strategically in front of the AF ROTC building, so the wind is channelled to the right side of the bench. There is a metal plaque on the middle top of the bench with a dedication to two officers. The names are Lt. Col Rafael Garfield and Cpt. Thomas Odgers. Who are they? Why are they being honored? ' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rotc/R2a.jpg', headline: '', description: '<br /><img src="https://api.montanab.com/ManoaPublicArt/images/rotc/R2b.jpg" /><br />Each AF ROTC graduating class has the option of donating a commemorative item of any type for their instructors. This is part of a tradition that goes back in this place to the 1970s. Other commemorative items nearby include memorable rock slabs with the students\' names, a pull-up bar and even a gas barbeque grill. Garfield and Odgers were honored by their students, before they moved on to other Air Force jobs elsewhere. ' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/rotc/R3.jpg', headline: '', description: 'All of these various artworks combined, from the small rocks to the bench to the pull-up bar, are intended to convey and promote a sense of camaraderie among the roughly 180 AF ROTC cadets on the UH Manoa campus.' },
+    ],
+    location: 		'',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/rotc/thumbnail.jpg',
+    centerpiece: 	'images/rotc/thumbnail.jpg',
+    geo_location: 	'21.292251,-157.816890', 
+    lat: 			21.292251,
+    lon: 		    -157.816890
+};
+
+pathContent['zodiac'] = {
+    name:		'Chinese Zodiac Signs',
+	subtitle: 	'',
+    details: 		'',
+	hide:			false,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/zodiac/Z1.jpg', headline: '', description: 'You might be wondering, why is there a Chinese cemetery in the middle of Manoa? And what do those animal figurines represent? This is supposed to help. ' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/zodiac/Z2.jpg', headline: '', description: 'This audio recording provides an overview of historical information about Chinese immigration to Hawaii and also explains some of the reasons why Chinese culture is so developed and strong in the islands. It also describes influences that Chinese people had on Hawaii’s culture. <audio><source src="https://api.montanab.com/ManoaPublicArt/images/zodiac/chinese_culture_in_hawaii.mp3" ></audio><br />Besides the story that these sculptures represent, this art piece is also a symbol of the Chinese culture. These animals are still commonly seen in Chinese spaces, especially here in Hawaii. The Twelve Zodiac Signs sit near the entrance of the Manoa Chinese Cemetery. This cemetery was founded in 1852 and is the oldest and largest Chinese cemetery in the state of Hawaii. With things like the cemetery and Chinatown, it is easy to see that the Chinese culture is extremely prominent in Hawaii. This might lead you to ask why. <br/><br/>Since 1788, the Chinese have been coming to the Hawaiian Islands. They were very interested in the sandalwood that was used to make carved images and incense sticks for burning. When the first Chinese settlers came to Hawaii, they also learned that the soil and climate would be suitable for growing sugar cane. So in 1802, a stone sugar mill from China was rebuilt on Lanai. Some of their crops failed due to the lack of water and they were running out of money. This forced the Chinese to stop farming sugar cane and some of them even returned to China. <br><br>To avoid becoming homesick, many newcomers brought plants into Hawaii. They began planting rice, certain types of mangoes, lychee, longan, and bamboo. These are very familiar flavors to Hawaii, so it is evident how influential these plants have been.<br><br>Before 1865, most of the people coming from China were men. Some of these men married Hawaiian women and created new lives for themselves on the islands. When people first move to a new place, they try to seek out people who are similar to them and try to recreate their old lives. This is when Chinatown was born. They began building stores, temples, and even cemeteries like the Manoa Chinese Cemetery. <br><br>By 1880, many restaurants and shops were owned by the Chinese. This was concerning to a number of people, so in 1882, a law was passed that restricted Chinese immigration. This law did not get changed until 1943. <br><br>In 1886, a fire was started in Chinatown that lasted 3 days. 8 blocks were destroyed. 350 Hawaiians and 7,000 Chinese were left homeless, but this wasn’t even the end. The bubonic plague was discovered in Chinatown in 1899 and the government decided to burn the spots in which it was found. They started a fire in Chinatown, at the intersection of Beretania St. and Nuuanu Ave.. 5 people dies in just a few days. They were forced to move outside of their Chinese community, but these hardships did not stop them. They continued working and learning.<br><br>William Kwai Fong Yap was born in Honolulu in 1873, just before the fires. In 1919, Yap went around Honolulu, asking people to sign a petition to expand the College of Hawaii. He wanted the college to become a university that offered graduate degrees. He got more than 400 signatures and the University of Hawaii was established 2 years later. <br><br>The Twelve Zodiac Signs are just a small part of a rich history, but it represents the strong perpetuation of the Chinese culture in Hawaii and its people’s resilience.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/zodiac/Z3.jpg', headline: '', description: 'Nearby, in downtown, many cultural connections to China are apparent, including a busy Chinatown, with diverse restaurants and stores, as well as regular dragon-boat races in Waikiki, bilingual signage around town and common public displays of culture, such as this image of people performing a traditional Chinese dance in the Chinatown Cultural Plaza courtyard. The dance comes from the Han Dynasty, about 1,800 years ago.' },
+    ],
+    location: 		'',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/zodiac/thumbnail.jpg',
+    centerpiece: 	'images/zodiac/thumbnail.jpg',
+    geo_location: 	'21.3179567,-157.8031013', 
+    lat: 			21.3179567,
+    lon: 		    -157.8031013
+};
+
 pathContent['our_story'] = {
     name:		"Our Story",
 	subtitle:   '',
@@ -1850,7 +2059,7 @@ pathContent['our_story'] = {
     video_image: 	'',
     video_url: 		'',
     gallery_images: [
-		{ image: 'https://api.montanab.com/ManoaPublicArt/images/our_story/O1.png', description: '<small><i>Associate Professor Brett Oppegaard, right, working with graduate students near the Founders’ Gate at UH Manoa in the fall of 2015. The mobile story about the gate, created that semester in the Com 691 class, became one of the first interactive experiences in the Manoa Public Art project. Students have been contributing new work to this project every year since.</i></small><br /><h2>&nbsp;&nbsp;About this project</h2> <p>The Manoa Public Art project began as a class experiment, supported by the local organization Malama Manoa, and since has grown into an expansive effort to chronicle the stories of public artwork in this Honolulu neighborhood, which includes the flagship University of Hawai‘i campus. <br><br>Hawai‘i was the first state in the country to adopt a "Percent for Art" program, requiring at least 1 percent of all money going toward public construction projects to be spent on public art. The Manoa neighborhood, and the University of Hawai‘i at Manoa, in particular, has been a major beneficiary of this law. This mobile app, in turn, is dedicated to promoting public discourse about the public art in this place.</p> <br><h2>&nbsp;&nbsp;Credits</h2><p><strong>Principal Investigator:</strong> Dr. Brett Oppegaard (School of Communications, University of Hawai‘i, brett.oppegaard@hawaii.edu)<br /><br /> <strong>Contributors</strong> <strong>Adam:</strong> Katie Boon<br /><br /> <strong>Air:</strong> Kapiolani Ching and Godwin Polendey<br /><br /> <strong>Alae A Hina:</strong> Eunica Escalante<br /><br /> <strong>Anuenue #2:</strong> Katie Boon<br /><br /> <strong>Arctic Portals:</strong> Eunica Escalante<br /><br /> <strong>Backyard Cooking:</strong> Katie Boon<br /><br /> <strong>Birthday Party Guests:</strong> Shannon Manamtam<br /><br /> <strong>Bobby Puts Frozen Peas on Poochie’s Head:</strong> Shannon Manamtam<br /><br /> <strong>Bridge, Bridge:</strong> Katie Boon<br /><br /> <strong>Calligraphy:</strong> Eunica Escalante<br /><br /> <strong>Candy Mural:</strong> Katie Boon<br /><br /> <strong>Chance Meeting:</strong> Tracy Kim<br /><br /> <strong>Chinese Soldier:</strong> Katie Boon<br /><br /> <strong>Commencement:</strong> Katie Boon<br /><br /> <strong>Defining Moment:</strong> Katie Boon<br /><br /> <strong>Divers:</strong> Eunica Escalante<br /><br /> <strong>Diverse:</strong> Eunica Escalante<br /><br /> <strong>Earth:</strong> Kapiolani Ching and Godwin Polendey<br /><br /> <strong>Epitaph:</strong> Tracy Kim<br /><br /> <strong>Fallen Warrior:</strong> Aven Santiago<br /><br /> <strong>Fire:</strong> Kapiolani Ching and Godwin Polendey<br /><br /> <strong>Flight to the Sun:</strong> Katie Boon<br /><br /> <strong>Founders’ Gate:</strong> Marc Arakaki<br /><br /> <strong>Fourth Sign:</strong> Katie Boon<br /><br /> <strong>Fu Dogs:</strong> Shannon Manamtam<br /><br /> <strong>Gate of Hope:</strong> Brett Oppegaard<br /><br /> <strong>Gidayu Poster:</strong> Eunica Escalante<br /><br /> <strong>Hawai‘i Ka‘u Kumu:</strong> Nicole Tam<br /><br /> <strong>Hina-O Nalani:</strong> Tracy Kim<br /><br /> <strong>Hula:</strong> Tracy Kim<br /><br /> <strong>Imperial Vase:</strong> Eunica Escalante<br /><br /> <strong>Kahuna with Sacred Stone:</strong> Eunica Escalante<br /><br /> <strong>Kanewai Lo‘i:</strong> Kaainoa Fernandez<br /><br /> <strong>Korean Center:</strong> Brett Oppegaard<br /><br />		<strong>Krypton:</strong> Shannon Manamtam<br /><br /> <strong>Maka \'a e \'Ike Aku i ke Awawa Uluwehi i na. Kuahiwi o Manoa:</strong> Eunica Escalante and Shannon Manamtam<br /><br /> <strong>Maka‘lo or Hawk’s Eye:</strong> Brandon Rivera<br /><br /> <strong>Makahiki Ho‘okupu:</strong> Bronson Doria<br /><br /> <strong>Man and Nature:</strong> Chanel Dias<br /><br /> <strong>Mana o\'i\'o:</strong> Tracy Kim<br /><br /> <strong>Maori Female:</strong> Eunica Escalante<br /><br /> <strong>Mind and Heart:</strong> Tracy Kim<br /><br /> <strong>Nana I Ke Kumu:</strong> Katie Boon<br /><br /> <strong>Natoma:</strong> Eunica Escalante<br /><br /> <strong>Neumes o Hawaii:</strong> Tracy Kim<br /><br /> <strong>Night:</strong> Shannon Manamtam<br /><br /> <strong>Night Hula:</strong> Brett Oppegaard<br /><br /> <strong>Pakipika:</strong> Eunica Escalante<br /><br /> <strong>Peace Garden:</strong> Eunica Escalante<br /><br /> <strong>Peace Memorial:</strong> Eunica Escalante<br /><br /> <strong>Peace Pole:</strong> Eunica Escalante<br /><br /> <strong>Pepper Dog Lovingly Chews on Bobby Cat While:</strong> Shannon Manamtam<br /><br />	<strong>Pigeon:</strong> Katie Boon<br /><br /> <strong>Pulelehua:</strong> Brett Oppegaard<br /><br /> <strong>Rainbow Spirit:</strong> Tracy Kim<br /><br /> <strong>Rainbows:</strong> Harrison Patino<br /><br /> <strong>Rain’s Reflections:</strong> Katie Boon<br /><br /> <strong>Rosarito:</strong> Tracy Kim<br /><br /> <strong>Ryu:</strong> Eunica Escalante<br /><br /> <strong>Seated Amida Buddha:</strong> Tracy Kim<br /><br /> <strong>Shinto Dogs:</strong> Tracy Kim<br /><br /> <strong>Shwe Gyi Do:</strong> Eunica Escalante<br /><br /> <strong>Spirit of Loyalty:</strong> Tracy Kim<br /><br /> <strong>Spirit of Manoa:</strong> Tracy Kim and Brett Oppegaard<br /><br /> <strong>Sumo Wrestler:</strong> Tracy Kim<br /><br /> <strong>Swimmers’ Quilt:</strong> Shannon Manamtam<br /><br /> <strong>Tea House:</strong> Eunica Escalante<br /><br /> <strong>Thai Pavilion:</strong> Eunica Escalante<br /><br /> <strong>Thomas Hale Hamilton:</strong> Shannon Manamtam<br /><br /> <strong>Tickets Home:</strong> Shannon Manamtam<br /><br /> <strong>To Help with a Migraine:</strong> Shannon Manamtam<br /><br /> <strong>To the Nth Power:</strong> Tracy Kim<br /><br /> <strong>Untitled Acrylic:</strong> Katie Boon<br /><br /> <strong>Untitled Bronze:</strong> Tracy Kim<br /><br /> <strong>Untitled Ceramic:</strong> Katie Boon<br /><br /> <strong>Untitled Hawaiian Studies:</strong> Eunica Escalante<br /><br /> <strong>Untitled Stained Glass:</strong> Katie Boon<br /><br /> <strong>Varney Circle Fountain:</strong> Mari Galiher, Cynthia Arata, and Jim Bea Ildefonso Sampaga<br /><br /> <strong>VVV:</strong> Tracy Kim<br /><br /> <strong>Wa:</strong> Katie Boon<br /><br /> <strong>Wallhanging:</strong> Shannon Manamtam<br /><br /> <strong>Water:</strong> Kapiolani Ching and Godwin Polendey<br /><br /> <strong>Water Garden:</strong> Katie Boon<br /><br /> <strong>Whorl:</strong> Eunica Escalante<br /><br /> <strong>Wisdom of the East:</strong> Shannon Manamtam<br /><br />			<strong>Yatomi:</strong> Eunica Escalante<br /><br /> <strong>Additional imagery:</strong> Courtesy of University of Hawai‘i Archives, through its Digital and Digitized Collections<br /><br /> <strong>Additional photography:</strong> Godwin Polendey and Jessica Homrich<br /><br /> <strong>Additional reporting:</strong> Jessica Homrich<br /><br /> <strong>Additional sources:</strong> The University of Hawai‘i\'s Campus Art brochure, its Campus Heritage Report, and "Building a Rainbow," edited by Victor Kobayashi<br /><br /> <strong>Mobile design and development:</strong> Montana Banana Web and Mobile Development, https://montanab.com/<br /><br /><strong>Project sponsor:</strong> Malama Manoa (2015-2016, $2,000; 2016-2017, $2,000; 2018-2019, $2,000)' }, 
+		{ image: 'https://api.montanab.com/ManoaPublicArt/images/our_story/O1.png', description: '<small><i>Associate Professor Brett Oppegaard, right, working with graduate students near the Founders’ Gate at UH Manoa in the fall of 2015. The mobile story about the gate, created that semester in the Com 691 class, became one of the first interactive experiences in the Manoa Public Art project. Students have been contributing new work to this project every year since.</i></small><br /><h2>&nbsp;&nbsp;About this project</h2> <p>The Manoa Public Art project began as a class experiment, supported by the local organization Malama Manoa, and since has grown into an expansive effort to chronicle the stories of public artwork in this Honolulu neighborhood, which includes the flagship University of Hawai‘i campus. <br><br>Hawai‘i was the first state in the country to adopt a "Percent for Art" program, requiring at least 1 percent of all money going toward public construction projects to be spent on public art. The Manoa neighborhood, and the University of Hawai‘i at Manoa, in particular, has been a major beneficiary of this law. This mobile app, in turn, is dedicated to promoting public discourse about the public art in this place.</p> <br><h2>&nbsp;&nbsp;Credits</h2><p><strong>Principal Investigator:</strong> Dr. Brett Oppegaard (School of Communications, University of Hawai‘i, brett.oppegaard@hawaii.edu)<br /><br /> <strong>Contributors</strong> <strong>Adam:</strong> Katie Boon<br /><br /> <strong>Air:</strong> Kapiolani Ching and Godwin Polendey<br /><br /><strong>Air Force ROTC:</strong> Winlove Almazan <br/><br/><strong>Alae A Hina:</strong> Eunica Escalante<br /><br /> <strong>Anuenue #2:</strong> Katie Boon<br /><br /> <strong>Arctic Portals:</strong> Eunica Escalante<br /><br /> <strong>Backyard Cooking:</strong> Katie Boon<br /><br /> <strong>Birthday Party Guests:</strong> Shannon Manamtam<br /><br /> <strong>Bobby Puts Frozen Peas on Poochie’s Head:</strong> Shannon Manamtam<br /><br /> <strong>Bridge, Bridge:</strong> Katie Boon<br /><br /> <strong>Calligraphy:</strong> Eunica Escalante<br /><br /> <strong>Candy Mural:</strong> Katie Boon<br /><br /> <strong>Chance Meeting:</strong> Tracy Kim<br /><br /> <strong>Chinese Soldier:</strong> Katie Boon<br /><br /> <strong>Chinese Zodiacs:</strong> Laura Young<br><br><strong>Commencement:</strong> Katie Boon<br /><br /> <strong>Defining Moment:</strong> Katie Boon<br /><br /> <strong>Divers:</strong> Eunica Escalante<br /><br /> <strong>Diverse:</strong> Eunica Escalante<br /><br /> <strong>Earth:</strong> Kapiolani Ching and Godwin Polendey<br /><br /> <strong>Epitaph:</strong> Tracy Kim<br /><br /> <strong>Fallen Warrior:</strong> Aven Santiago<br /><br /> <strong>Fire:</strong> Kapiolani Ching and Godwin Polendey<br /><br /> <strong>Flight to the Sun:</strong> Katie Boon<br /><br /> <strong>Founders’ Gate:</strong> Marc Arakaki<br /><br /> <strong>Fourth Sign:</strong> Katie Boon<br /><br /> <strong>Frear Hall murals:</strong> Andreas Miguel<br><br><strong>Fu Dogs:</strong> Shannon Manamtam<br /><br /> <strong>Gate of Hope:</strong> Brett Oppegaard<br /><br /><strong>Gathering of Chiefs:</strong> Jacob Hensley<br><br> <strong>Gidayu Poster:</strong> Eunica Escalante<br /><br /> <strong>Hawai‘i Ka‘u Kumu:</strong> Nicole Tam<br /><br /> <strong>Hina-O Nalani:</strong> Tracy Kim<br /><br /> <strong>Hula:</strong> Tracy Kim<br /><br /> <strong>Imperial Vase:</strong> Eunica Escalante<br /><br /><strong>Ka Punahou:</strong> Melissa Tiogangco<br><br> <strong>Kahuna with Sacred Stone:</strong> Eunica Escalante<br /><br /> <strong>Kanewai Lo‘i:</strong> Kaainoa Fernandez<br /><br /> <strong>Korean Center:</strong> Brett Oppegaard<br /><br />	<strong>Kumulipo:</strong> Glenn Ugalde<br><br>	<strong>Krypton:</strong> Shannon Manamtam<br /><br /> <strong>Maka \'a e \'Ike Aku i ke Awawa Uluwehi i na. Kuahiwi o Manoa:</strong> Eunica Escalante and Shannon Manamtam<br /><br /> <strong>Maka‘lo or Hawk’s Eye:</strong> Brandon Rivera<br /><br /> <strong>Makahiki Ho‘okupu:</strong> Bronson Doria<br /><br /> <strong>Man and Nature:</strong> Chanel Dias<br /><br /> <strong>Mana o\'i\'o:</strong> Tracy Kim<br /><br /> <strong>Maori Female:</strong> Eunica Escalante<br /><br /> <strong>Mayan Warrior:</strong> Leslie Betancourt<br><br><strong>Mind and Heart:</strong> Tracy Kim<br /><br /> <strong>Nana I Ke Kumu:</strong> Katie Boon<br /><br /> <strong>Natoma:</strong> Eunica Escalante<br /><br /> <strong>Neumes o Hawaii:</strong> Tracy Kim<br /><br /> <strong>Night:</strong> Shannon Manamtam<br /><br /> <strong>Night Hula:</strong> Brett Oppegaard<br /><br /> <strong>Pakipika:</strong> Eunica Escalante<br /><br /> <strong>Peace Garden:</strong> Eunica Escalante<br /><br /> <strong>Peace Memorial:</strong> Eunica Escalante<br /><br /> <strong>Peace Pole:</strong> Eunica Escalante<br /><br /> <strong>Pepper Dog Lovingly Chews on Bobby Cat While:</strong> Shannon Manamtam<br /><br />	<strong>Pigeon:</strong> Katie Boon<br /><br /> <strong>Pulelehua:</strong> Brett Oppegaard<br /><br /> <strong>Rainbow Spirit:</strong> Tracy Kim, Ashley Gomez<br /><br /> <strong>Rainbows:</strong> Harrison Patino<br /><br /> <strong>Rain’s Reflections:</strong> Katie Boon<br /><br /> <strong>Rosarito:</strong> Tracy Kim<br /><br /> <strong>Ryu:</strong> Eunica Escalante<br /><br /> <strong>Seated Amida Buddha:</strong> Tracy Kim<br /><br /> <strong>Shinto Dogs:</strong> Tracy Kim<br /><br /> <strong>Shwe Gyi Do:</strong> Eunica Escalante<br /><br /> <strong>Spirit of Loyalty:</strong> Tracy Kim<br /><br /> <strong>Spirit of Manoa:</strong> Tracy Kim and Brett Oppegaard<br /><br /><strong>Stevenson hut:</strong> Anna Barrett<br><br> <strong>Sumo Wrestler:</strong> Tracy Kim<br /><br /> <strong>Swimmers’ Quilt:</strong> Shannon Manamtam<br /><br /> <strong>Tea House:</strong> Eunica Escalante<br /><br /> <strong>Thai Pavilion:</strong> Eunica Escalante<br /><br /> <strong>Thomas Hale Hamilton:</strong> Shannon Manamtam<br /><br /> <strong>Tickets Home:</strong> Shannon Manamtam<br /><br /> <strong>To Help with a Migraine:</strong> Shannon Manamtam<br /><br /> <strong>To the Nth Power:</strong> Tracy Kim<br /><br /> <strong>Untitled Acrylic:</strong> Katie Boon<br /><br /> <strong>Untitled Bronze:</strong> Tracy Kim<br /><br /> <strong>Untitled Ceramic:</strong> Katie Boon<br /><br /> <strong>Untitled Hawaiian Studies:</strong> Eunica Escalante<br /><br /> <strong>Untitled Stained Glass:</strong> Katie Boon<br /><br /> <strong>Varney Circle Fountain:</strong> Mari Galiher, Cynthia Arata, and Jim Bea Ildefonso Sampaga<br /><br /> <strong>VVV:</strong> Tracy Kim<br /><br /> <strong>Wa:</strong> Katie Boon<br /><br /> <strong>Waikiki murals:</strong> Ivy Martin<br><br><strong>Wallhanging:</strong> Shannon Manamtam<br /><br /> <strong>Water:</strong> Kapiolani Ching and Godwin Polendey<br /><br /> <strong>Water Garden:</strong> Katie Boon<br /><br /> <strong>Whorl:</strong> Eunica Escalante<br /><br /> <strong>Wisdom of the East:</strong> Shannon Manamtam<br /><br />			<strong>Yatomi:</strong> Eunica Escalante<br /><br /> <strong>Additional imagery:</strong> Courtesy of University of Hawai‘i Archives, through its Digital and Digitized Collections<br /><br /> <strong>Additional photography:</strong> Godwin Polendey and Jessica Homrich<br /><br /> <strong>Additional reporting:</strong> Jessica Homrich<br /><br /> <strong>Additional sources:</strong> The University of Hawai‘i\'s Campus Art brochure, its Campus Heritage Report, and "Building a Rainbow," edited by Victor Kobayashi<br />Waikiki mural photos: https://commons.wikimedia.org/wiki/File:Waikiki,_Honolulu_(Forty_Years_On_the_Pacifi c).png) and https://commons.wikimedia.org/wiki/File:Diamond_Head_Hawaii_-_panoramio.jpg.<br><br /> <strong>Mobile design and development:</strong> Montana Banana Web and Mobile Development, https://montanab.com/<br /><br /><strong>Project sponsor:</strong> Malama Manoa (2015-2016, $2,000; 2016-2017, $2,000; 2018-2019, $2,000)' }, 
     ],
     location: 		'Go to UH Manoa’s campus',
     sharing: 		'',
