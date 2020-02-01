@@ -1878,7 +1878,7 @@ pathContent['frear_hall'] = {
 	{ image: 'https://api.montanab.com/ManoaPublicArt/images/frear_hall/F3.jpg', headline: '', description: 'This 1952 photo shows the mosaic intact in 1952. ' },
 	{ image: 'https://api.montanab.com/ManoaPublicArt/images/frear_hall/F4.jpg', headline: '', description: 'When the desk was remodeled in the 1950s, several of the parts of this mosaic were separated and put into storage. These photos show the slabs of concrete currently sitting in a utiliy closet in the basement of Frear Hall today. Will they ever all be brought back together? This artwork was created by George Segal in 1992, and it is part of the Art in Public Places Program.' },
 	{ image: 'https://api.montanab.com/ManoaPublicArt/images/frear_hall/F5.jpg', headline: '', description: '' },
-	{ image: 'https://api.montanab.com/ManoaPublicArt/images/frear_hall/F6.jpg', headline: '', description: '' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/frear_hall/F6.jpg', headline: '', description: '<br /><br /><iframe width="560" height="315" src="https://www.youtube.com/embed/j0Nrkltgf-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' },
     ],
     location: 		'Frear Hall',
     sharing: 		'Share your story',
@@ -2050,6 +2050,229 @@ pathContent['zodiac'] = {
     lon: 		    -157.8031013
 };
 
+
+pathContent['bachman'] = {
+    name:		'Bachmall Hall',
+	subtitle: 	'',
+    details: 		'',
+	hide:			false,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/bachman/Bachman1.jpg', headline: '', description: 'Bachman Hall was built in 1948 and was designed by Vladimir Ossipoff, along with Associated Architects. In this postwar era, the focus was taken away from the “neo-classical” Historic Quad to the modernist corner of University Avenue and Dole Street. This shift from a more traditional, classic architectural style toward modernism is reflective of a shift in American attitudes following World War II. Americans began to open up about architectural styles, and open up racially, meaning international and racially diverse talents, especially Native Hawaiians, Japanese and Chinese architects were given more opportunities in the construction industry here in Hawaii.<br /><br />Bachman Hall is a special building on campus because the architect, Ossipoff, used it to introduce a new blend of traditionalism with local character, or “Tropical Modernism.” Tropical Modernism blends (mid-century) “modernism” with Hawaiian, Asian and “Wrightian” (Frank Lloyd Wright-inspired) elements. The design celebrates the gentle climate and Hawaii’s relaxed form of life. Its design features help blend the indoor and outdoor with natural shading techniques, natural ventilation and landscaping.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/bachman/Bachman2.jpg', headline: '', description: 'There are many design features on this building that characterize Tropical Modernism, including this example of “brise-soleil,” which is a permanent sun-shading technique. The brise-soleil in this photo takes shape in patterned concrete-walls that shade the sun but still admit light, air and a view.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/bachman/Bachman3.jpg', headline: '', description: 'This photo inside the courtyard of Bachman Hall shows the modern lines of the unadorned columns contrasting with the curving palm trees. You can see the flat roof, the brise-soleil “false” walls and the flowing indoor to outdoor space, all built with local materials, and all characteristic of the Tropical Modernist style.' },
+    ],
+    location: 		'',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/bachman/thumbnail.jpg',
+    centerpiece: 	'images/bachman/thumbnail.jpg',
+    geo_location: 	'21.2972, -157.8199', 
+    lat: 			21.2972,
+    lon: 		    -157.8199
+};
+
+pathContent['hale_manoa'] = {
+    name:		'Hale Manoa',
+	subtitle: 	'',
+    details: 		'',
+	hide:			false,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/hale_manoa/HaleManoa1.jpg', headline: '', description: 'Built in 1962, Hale Manoa was designed by Chinese-American architect, I.M. Pei, along with McAuliffe, Young & Associates. Pei, and this local firm, helped to design and supervise the construction of many of the East-West Center buildings in the early 1960s. As such, certain design features are consistent throughout the multi-building complex. In this photo, you see an arch, similar to the arches of Jefferson Hall (another building of the East-West Center), which is characteristic of “New Formalism,” a popular style in Western culture in the mid-20th century. Other characteristics of this style includes symmetry, columns, repetitive patterns and formal landscaping.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/hale_manoa/HaleManoa2.jpg', headline: '', description: 'Along with many other buildings on campus that were built in the postwar era, this dorm has design components that are characteristic of the Tropical Modernism movement that was popular in Hawaii in the mid-20th century. Tropical Modernist style, along with many other buildings on campus, arose in the mid-20th century. Some design components of Tropical Modernism include double floors of rooms with four open floor (lanai) areas. These lanais offer cross-ventilation, especially on the mauka (mountain side) of the building because of the tradewinds. Many students enjoy the makai (ocean side) part of the building for views but prefer the mountain side for the breeze.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/hale_manoa/HaleManoa3.jpg', headline: '', description: 'In addition to Tropical Modernism, Hale Manoa also has hints of “brutalism.” Brutalism developed in the modernism era and is characterized by geometric and asymmetric compositions, repetitive angular forms, rough blocky outlines and recessed windows. In this photo, you can clearly see the recessed windows, varying sizes of rectangles and blocky outline.' },
+    ],
+    location: 		'',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/hale_manoa/thumbnail.jpg',
+    centerpiece: 	'images/hale_manoa/thumbnail.jpg',
+    geo_location: 	'21.2983, -157.8144', 
+    lat: 			21.2983,
+    lon: 		    -157.8144
+};
+
+pathContent['jefferson'] = {
+    name:		'Jefferson Hall',
+	subtitle: 	'',
+    details: 		'',
+	hide:			false,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/jefferson/Jefferson1.jpg', headline: '', description: 'Jefferson Hall was built in 1963 by Chinese-American architect, I.M. Pei, with assistance from Young & Henderson. After World War II, white Americans began to open up about architectural styles and open up racially, meaning international and racially diverse talents – especially Native Hawaiians, Japanese, and Chinese architects – were given more opportunities in the construction industry in Hawaii. This building is the main building of the East-West Center’s multi-building complex and is home to the Hawai’i Imin International Conference Center. As a meeting place for people from all around the world, it was named after the former U.S. president, Thomas Jefferson. The architectural style includes hints of New Formalism, which was popular in Western culture in the mid-20th century. Characteristics of this style include symmetry, references to classicism (columns, decorative arches and repetitive patterns) and formal landscaping. Another popular building in Honolulu that is designed with architectural components of New Formalism is the state capitol building, built around the same time in 1965.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/jefferson/Jefferson2.jpg', headline: '', description: 'The style also classifies as Tropical Modernism and Mid-century Modern, which are very popular styles among buildings built on campus during the 1950s and 1960s. Tropical Modernism blends the indoor and outdoor through functional and stylish architectural features. As Hawaii’s economy thrived and grew during that time period, so did the population, and thus, campus. In the postwar era, Americans were very open to new architectural ideas, which could help explain the mash-up of architectural styles.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/jefferson/Jefferson3.jpg', headline: '', description: 'The design also incorporates some traditional Chinese architectural components, including the I-profile concrete beams supporting the upper story.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/jefferson/Jefferson4.jpg', headline: '', description: 'These Chinese-inspired I-profile beams communicate a link between the East and West, which represents the vision and purpose of the East West Center.' },
+    ],
+    location: 		'',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/jefferson/thumbnail.jpg',
+    centerpiece: 	'images/jefferson/thumbnail.jpg',
+    geo_location: 	'21.2993, -157.8138', 
+    lat: 			21.2993,
+    lon: 		    -157.8138
+};
+
+pathContent['keller'] = {
+    name:		'Keller Hall',
+	subtitle: 	'',
+    details: 		'',
+	hide:			false,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/keller/Keller1.jpg', headline: '', description: 'Built in 1959, Keller Hall was designed by a local architect, Clifford Young, and was completed by Edwin Mamoru Tani, who were both veterans and represented the growing participation of Asian-Americans in the construction industry in Hawaii. Additionally, beginning in the postwar era, many Hawaiian, Chinese and Japanese architects were offered more opportunities for commissions. This is a four-story building with design features such as concrete panels, vertical aluminum fins and a stained-glass window spanning all the way up to the top floor. This stained-glass window was done by former art professor and former acting dean of the College of Arts and Sciences, Murray Turnbull, along with his wife, Phyllis.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/keller/Keller2.jpg', headline: '', description: 'Keller Hall qualifies as Tropical Modernist style, along with many other buildings on campus built in the mid-20th century. Tropical Modernism blends (mid-century) “modernism” with Hawaiian, Asian, and “Wrightian” (Frank Lloyd Wright-inspired) elements. The design celebrates the gentle climate and Hawaii’s relaxed form of life. Its design features help blend the indoor and outdoor with natural shading techniques, natural ventilation, and landscaping. In this photo, you can see the vertical sunshades next to the “jalousie” windows. These sunshades help to keep direct sunlight out, keeping it cooler inside the building. Jalousie windows are windows with horizontals slats that can angle downward when open, allowing people on the inside to see the views outside, while blocking direct sunlight, and allowing for natural ventilation while blocking out rain. The popularity of jalousie windows took off in the mid-20th century, as they were used in the design of many buildings in Florida, southern California and the deep south. Behind the beautiful landscaping, you can see “louvers,” which are stiff, angled slats, that function in the same way as the jalousie windows. All of the above mentioned design features are characteristic of the Tropical Modernism architectural movement.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/keller/Keller3.jpg', headline: '', description: 'This photo shows an open corridor connecting two sides of the building. This open corridor exemplifies the blend of indoor/outdoor spaces that are so ubiquitous in mid-century Hawiian buildings.' },
+    ],
+    location: 		'',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/keller/thumbnail.jpg',
+    centerpiece: 	'images/keller/thumbnail.jpg',
+    geo_location: 	'21.3000, -157.8161', 
+    lat: 			21.3000,
+    lon: 		    -157.8161
+};
+
+
+pathContent['kennedy'] = {
+    name:		'John F. Kennedy Theatre',
+	subtitle: 	'',
+    details: 		'',
+	hide:			false,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/kennedy/Kennedy1.jpg', headline: '', description: 'In 1963, this theater was originally named the “East-West Center Theater.” However, five days before its opening, President John. F. Kennedy was assassinated, and it was named after him in his honor. This public building therefore was the first to be named after the late president. It was designed by I.M.Pei, a Chinese-American architect, with the local firm, McAuliffe, Young, & Associates. This mid-century building has several notable features that are characteristic of the popular “Tropical Modernism” style permeating Hawaii in the postwar era. Notable design features include prestressed concrete beams and girders, creating a huge, functional lanai, as seen in this photo.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/kennedy/Kennedy2.jpg', headline: '', description: 'This building, reflecting popular architectural styles from the East and West was originally built for East-West Center conferences, but because of the building’s popularity, the university now owns it, while the East-West Center acquired Burns Hall.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/kennedy/Kennedy3.jpg', headline: '', description: 'The design complements I.M. Pei’s design of Jefferson Hall across the street, including the Chinese inspired I-profile beams as seen in this photo.' },
+    ],
+    location: 		'',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/keller/thumbnail.jpg',
+    centerpiece: 	'images/keller/thumbnail.jpg',
+    geo_location: 	'21.2997, -157.8149', 
+    lat: 			21.2997,
+    lon: 		    -157.8149
+};
+
+pathContent['lincoln'] = {
+    name:		'Lincoln Hall',
+	subtitle: 	'',
+    details: 		'',
+	hide:			false,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/lincoln/Lincoln1.jpg', headline: '', description: 'Lincoln Hall was built in 1962 and designed by Chinese-American architect, I.M. Pei along with the local firm of McAuliffe, Young, & Associates. After World War II, white Americans began to open up about architectural styles and open up racially, meaning international and racially diverse talents, especially Native Hawaiians, Japanese, and Chinese architects were given more opportunities in the construction industry here in Hawaii. The building is named after former U.S. President Abraham Lincoln and is a part of the East-West Center multi-building complex.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/lincoln/Lincoln2.jpg', headline: '', description: 'The building is classically simple with several features that contribute to its description as “Tropical Modernist.” Tropical Modernism was a very popular style of buildings on campus built in the mid-century, postwar era. The style blends (mid-century) “modernism”, with Hawaiian, Asian, and “Wrightian” (Frank Lloyd Wright-inspired) elements. The design celebrates the gentle climate and Hawaii’s relaxed form of life. In this photo, you can see the concrete “brise-soleil,” which helps to create shade while still allowing light and air to come through the window. Built into some of the window sills, there are “louvers,” which are horizontal, angled slats that keep direct light and rain out, while allowing breezes in. This natural ventilation contributes to Tropical Modernism by blending ht indoor and outdoor through functional, and artistic architectural features. The interior of the building has a four-story-high atrium space filled with beautiful plants, again contributing to the blend of the indoor and outdoor.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/lincoln/Lincoln3.jpg', headline: '', description: 'Architect I.M. Pei designed these interlocking concrete blocks to create an interesting pattern on the side walls. This decorative design is similar to some designs of the world renowned architect, Frank Lloyd Wright.' },
+    ],
+    location: 		'',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/lincoln/thumbnail.jpg',
+    centerpiece: 	'images/lincoln/thumbnail.jpg',
+    geo_location: 	'21.3006, -157.8146', 
+    lat: 			21.3006,
+    lon: 		    -157.8146
+};
+
+pathContent['moore'] = {
+    name:		'Moore Hall',
+	subtitle: 	'',
+    details: 		'',
+	hide:			false,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/moore/Moore1.jpg', headline: '', description: 'Moore Hall was built in 1969 and was named after Charles Moore, a sinologist (a person who studies China) and philosophy professor. The building was designed by Hideo Murakami from Hilo, Hawaii, who had become the official Architect for the City and County of Honolulu in 1959. Murakami has been an apprentice at the foundation of world-renowned architect, Frank Lloyd Wright.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/moore/Moore2.jpg', headline: '', description: 'The layout of this building is known as an “H-plan,” notable for its semi-enclosed courtyard spaces and for its distinct, folded-plane canopy roofs. These features are common design features of many buildings on campus. They are characteristic of “Tropical Modernism,” a popular style in Hawaii in the mid-century era that blends indoor and outdoor through modern, functional design.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/moore/Moore3.jpg', headline: '', description: 'The design of Moore Hall incorporates “brise-soleil,” which is a permanent sun-shading technique. The brise-soleil could take shape in patterned concrete-walls that shade the sun but still admit light, air, and a view. In this photo, you can see how the windows are bordered by this brise-soleil type shading.' },
+    ],
+    location: 		'',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/moore/thumbnail.jpg',
+    centerpiece: 	'images/moore/thumbnail.jpg',
+    geo_location: 	'21.3012, -157.8154', 
+    lat: 			21.3012,
+    lon: 		    -157.8154
+};
+
+pathContent['saunders'] = {
+    name:		'Saunders Hall',
+	subtitle: 	'',
+    details: 		'',
+	hide:			false,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/saunders/Saunders1.jpg', headline: '', description: 'Saunders Hall was built in 1974 and designed by the firm of Ossipoff, Snyder, Roland and Goetz. In this photo, you can see how the building is set at a 45 degree angle relative to the historic quad. Diagonal planning, like this, also known as “Field Theory,” was a popular architectural technique of the 1970s. Saunders Hall exemplifies the Tropical Modernist movement that permeated Hawaii in the mid-20th century. In this photo, you can see how the entrance of the building leads you into an open courtyard, exemplifying the indoor to outdoor space characteristic of the “modern” style.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/saunders/Saunders2.jpg', headline: '', description: 'This photo was taken from the bottom level of the courtyard looking up to the open sky above. Here you can see all seven stories, open corridors, and corner projections looking over the courtyard. The building is made mostly of concrete, which is a popular material in Hawaii because of the warm climate and the relatively low cost of shipping.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/saunders/Saunders3.jpg', headline: '', description: 'Saunders is home to many of the social science departments, including the Department of Regional and Urban Planning. Fittingly, in the mid-1990s, the building underwent an experiment on sustainability, with the installation of a photovoltaic system (solar panels), composting, water catchment provisions and green roofing.' },
+    ],
+    location: 		'',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/saunders/thumbnail.jpg',
+    centerpiece: 	'images/saunders/thumbnail.jpg',
+    geo_location: 	'21.3005, -157.8190', 
+    lat: 			21.3005,
+    lon: 		    -157.8190
+};
+
+pathContent['sinclair'] = {
+    name:		'Sinclair Library',
+	subtitle: 	'',
+    details: 		'',
+	hide:			false,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/sinclair/Sinclair1.jpg', headline: '', description: 'Built in 1956, Sinclair Library was designed by the architects in a small firm of Lemmon, Freeth and Haines. In the mid-20th century, modernism, and, particularly, Tropical Modernism began to take off in Hawaii and around the UH campus. Americans in the postwar era were much more open to new architectural ideas, and as the economy thrived, the population and campus began to demand expansion. This is one of the first modernist buildings added on campus. The curving entryway you see in this photo is a unique feature on campus. It is made of concrete, brick and local “Waianae” sandstone.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/sinclair/Sinclair2.jpg', headline: '', description: 'This photo shows “louvers” that are maneuverable horizontal slats that angle downwards to allow gentle light and breezes in, while avoiding direct sunlight and rain. During the designing phase of this building, the architects decided to embrace the natural climate and avoid air conditioning. Glass “jalousie” windows, which are windows with operable louvers on them, allow tradewinds to come through from the mauka (mountain) side of the library. These features are examples of Tropical Modernist design.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/sinclair/Sinclair3.jpg', headline: '', description: 'Here is another angle of the jalousie windows. In this photo, they are fully shut. However, if these louvers are opened, it would create some nice, natural cross-ventilation throughout the building.' },
+    ],
+    location: 		'',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/sinclair/thumbnail.jpg',
+    centerpiece: 	'images/sinclair/thumbnail.jpg',
+    geo_location: 	'21.2985, -157.8205', 
+    lat: 			21.2985,
+    lon: 		    -157.8205
+};
+
+pathContent['snyder'] = {
+    name:		'Snyder Library',
+	subtitle: 	'',
+    details: 		'',
+	hide:			false,
+    //caption: 		'',
+    video_image: 	'',
+    video_url: 		'',
+    gallery_images: [
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/snyder/SnyderHall1.jpg', headline: '', description: 'Snyder Hall was designed by Takashi Anbe and George K.C. Lee in 1962. This building is a great example of the Tropical Modernist movement that was popular in Hawaii and on campus in the mid-20th century. ' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/snyder/SnyderHall2.jpg', headline: '', description: 'Tropical Modernism blends (mid-century) “modernism”, with Hawaiian, Asian, and “Wrightian” (Frank Lloyd Wright-inspired) elements. This photo is an excellent example of tropical modernism because of the “brise-soleil” design above this side door. Brise-soleil is an artistic, functional, permanent sun-shading technique that helps to block direct sunlight while allowing soft light and ventilation. The patterned concrete wall you see here is an example of brise-soleil.' },
+	{ image: 'https://api.montanab.com/ManoaPublicArt/images/snyder/SnyderHall3.jpg', headline: '', description: 'Here, you can see the operable metal “louvers,” or “jalousie windows,” spanning the exterior. These are the horizontal, adjustable slats that angle downward, allowing light and wind to enter, but not direct sun or rain. This natural ventilation is characteristic of Tropical Modernism. This photo also shows the age and lack of maintenance on the exterior, which can help explain why there is talk of demolishing the building. If the building is demolished, or renovated, it would be important to keep the style of the original building because the Tropical Modernist style has established itself so prominently on campus.' },
+    ],
+    location: 		'',
+    sharing: 		'Share your story',
+    thumbnail: 		'images/snyder/thumbnail.jpg',
+    centerpiece: 	'images/snyder/thumbnail.jpg',
+    geo_location: 	'21.3003, -157.8171', 
+    lat: 			21.3003,
+    lon: 		    -157.8171
+};
+
 pathContent['our_story'] = {
     name:		"Our Story",
 	subtitle:   '',
@@ -2059,7 +2282,7 @@ pathContent['our_story'] = {
     video_image: 	'',
     video_url: 		'',
     gallery_images: [
-		{ image: 'https://api.montanab.com/ManoaPublicArt/images/our_story/O1.png', description: '<small><i>Associate Professor Brett Oppegaard, right, working with graduate students near the Founders’ Gate at UH Manoa in the fall of 2015. The mobile story about the gate, created that semester in the Com 691 class, became one of the first interactive experiences in the Manoa Public Art project. Students have been contributing new work to this project every year since.</i></small><br /><h2>&nbsp;&nbsp;About this project</h2> <p>The Manoa Public Art project began as a class experiment, supported by the local organization Malama Manoa, and since has grown into an expansive effort to chronicle the stories of public artwork in this Honolulu neighborhood, which includes the flagship University of Hawai‘i campus. <br><br>Hawai‘i was the first state in the country to adopt a "Percent for Art" program, requiring at least 1 percent of all money going toward public construction projects to be spent on public art. The Manoa neighborhood, and the University of Hawai‘i at Manoa, in particular, has been a major beneficiary of this law. This mobile app, in turn, is dedicated to promoting public discourse about the public art in this place.</p> <br><h2>&nbsp;&nbsp;Credits</h2><p><strong>Principal Investigator:</strong> Dr. Brett Oppegaard (School of Communications, University of Hawai‘i, brett.oppegaard@hawaii.edu)<br /><br /> <strong>Contributors</strong> <strong>Adam:</strong> Katie Boon<br /><br /> <strong>Air:</strong> Kapiolani Ching and Godwin Polendey<br /><br /><strong>Air Force ROTC:</strong> Winlove Almazan <br/><br/><strong>Alae A Hina:</strong> Eunica Escalante<br /><br /> <strong>Anuenue #2:</strong> Katie Boon<br /><br /> <strong>Arctic Portals:</strong> Eunica Escalante<br /><br /> <strong>Backyard Cooking:</strong> Katie Boon<br /><br /> <strong>Birthday Party Guests:</strong> Shannon Manamtam<br /><br /> <strong>Bobby Puts Frozen Peas on Poochie’s Head:</strong> Shannon Manamtam<br /><br /> <strong>Bridge, Bridge:</strong> Katie Boon<br /><br /> <strong>Calligraphy:</strong> Eunica Escalante<br /><br /> <strong>Candy Mural:</strong> Katie Boon<br /><br /> <strong>Chance Meeting:</strong> Tracy Kim<br /><br /> <strong>Chinese Soldier:</strong> Katie Boon<br /><br /> <strong>Chinese Zodiacs:</strong> Laura Young<br><br><strong>Commencement:</strong> Katie Boon<br /><br /> <strong>Defining Moment:</strong> Katie Boon<br /><br /> <strong>Divers:</strong> Eunica Escalante<br /><br /> <strong>Diverse:</strong> Eunica Escalante<br /><br /> <strong>Earth:</strong> Kapiolani Ching and Godwin Polendey<br /><br /> <strong>Epitaph:</strong> Tracy Kim<br /><br /> <strong>Fallen Warrior:</strong> Aven Santiago<br /><br /> <strong>Fire:</strong> Kapiolani Ching and Godwin Polendey<br /><br /> <strong>Flight to the Sun:</strong> Katie Boon<br /><br /> <strong>Founders’ Gate:</strong> Marc Arakaki<br /><br /> <strong>Fourth Sign:</strong> Katie Boon<br /><br /> <strong>Frear Hall murals:</strong> Andreas Miguel<br><br><strong>Fu Dogs:</strong> Shannon Manamtam<br /><br /> <strong>Gate of Hope:</strong> Brett Oppegaard<br /><br /><strong>Gathering of Chiefs:</strong> Jacob Hensley<br><br> <strong>Gidayu Poster:</strong> Eunica Escalante<br /><br /> <strong>Hawai‘i Ka‘u Kumu:</strong> Nicole Tam<br /><br /> <strong>Hina-O Nalani:</strong> Tracy Kim<br /><br /> <strong>Hula:</strong> Tracy Kim<br /><br /> <strong>Imperial Vase:</strong> Eunica Escalante<br /><br /><strong>Ka Punahou:</strong> Melissa Tiogangco<br><br> <strong>Kahuna with Sacred Stone:</strong> Eunica Escalante<br /><br /> <strong>Kanewai Lo‘i:</strong> Kaainoa Fernandez<br /><br /> <strong>Korean Center:</strong> Brett Oppegaard<br /><br />	<strong>Kumulipo:</strong> Glenn Ugalde<br><br>	<strong>Krypton:</strong> Shannon Manamtam<br /><br /> <strong>Maka \'a e \'Ike Aku i ke Awawa Uluwehi i na. Kuahiwi o Manoa:</strong> Eunica Escalante and Shannon Manamtam<br /><br /> <strong>Maka‘lo or Hawk’s Eye:</strong> Brandon Rivera<br /><br /> <strong>Makahiki Ho‘okupu:</strong> Bronson Doria<br /><br /> <strong>Man and Nature:</strong> Chanel Dias<br /><br /> <strong>Mana o\'i\'o:</strong> Tracy Kim<br /><br /> <strong>Maori Female:</strong> Eunica Escalante<br /><br /> <strong>Mayan Warrior:</strong> Leslie Betancourt<br><br><strong>Mind and Heart:</strong> Tracy Kim<br /><br /> <strong>Nana I Ke Kumu:</strong> Katie Boon<br /><br /> <strong>Natoma:</strong> Eunica Escalante<br /><br /> <strong>Neumes o Hawaii:</strong> Tracy Kim<br /><br /> <strong>Night:</strong> Shannon Manamtam<br /><br /> <strong>Night Hula:</strong> Brett Oppegaard<br /><br /> <strong>Pakipika:</strong> Eunica Escalante<br /><br /> <strong>Peace Garden:</strong> Eunica Escalante<br /><br /> <strong>Peace Memorial:</strong> Eunica Escalante<br /><br /> <strong>Peace Pole:</strong> Eunica Escalante<br /><br /> <strong>Pepper Dog Lovingly Chews on Bobby Cat While:</strong> Shannon Manamtam<br /><br />	<strong>Pigeon:</strong> Katie Boon<br /><br /> <strong>Pulelehua:</strong> Brett Oppegaard<br /><br /> <strong>Rainbow Spirit:</strong> Tracy Kim, Ashley Gomez<br /><br /> <strong>Rainbows:</strong> Harrison Patino<br /><br /> <strong>Rain’s Reflections:</strong> Katie Boon<br /><br /> <strong>Rosarito:</strong> Tracy Kim<br /><br /> <strong>Ryu:</strong> Eunica Escalante<br /><br /> <strong>Seated Amida Buddha:</strong> Tracy Kim<br /><br /> <strong>Shinto Dogs:</strong> Tracy Kim<br /><br /> <strong>Shwe Gyi Do:</strong> Eunica Escalante<br /><br /> <strong>Spirit of Loyalty:</strong> Tracy Kim<br /><br /> <strong>Spirit of Manoa:</strong> Tracy Kim and Brett Oppegaard<br /><br /><strong>Stevenson hut:</strong> Anna Barrett<br><br> <strong>Sumo Wrestler:</strong> Tracy Kim<br /><br /> <strong>Swimmers’ Quilt:</strong> Shannon Manamtam<br /><br /> <strong>Tea House:</strong> Eunica Escalante<br /><br /> <strong>Thai Pavilion:</strong> Eunica Escalante<br /><br /> <strong>Thomas Hale Hamilton:</strong> Shannon Manamtam<br /><br /> <strong>Tickets Home:</strong> Shannon Manamtam<br /><br /> <strong>To Help with a Migraine:</strong> Shannon Manamtam<br /><br /> <strong>To the Nth Power:</strong> Tracy Kim<br /><br /> <strong>Untitled Acrylic:</strong> Katie Boon<br /><br /> <strong>Untitled Bronze:</strong> Tracy Kim<br /><br /> <strong>Untitled Ceramic:</strong> Katie Boon<br /><br /> <strong>Untitled Hawaiian Studies:</strong> Eunica Escalante<br /><br /> <strong>Untitled Stained Glass:</strong> Katie Boon<br /><br /> <strong>Varney Circle Fountain:</strong> Mari Galiher, Cynthia Arata, and Jim Bea Ildefonso Sampaga<br /><br /> <strong>VVV:</strong> Tracy Kim<br /><br /> <strong>Wa:</strong> Katie Boon<br /><br /> <strong>Waikiki murals:</strong> Ivy Martin<br><br><strong>Wallhanging:</strong> Shannon Manamtam<br /><br /> <strong>Water:</strong> Kapiolani Ching and Godwin Polendey<br /><br /> <strong>Water Garden:</strong> Katie Boon<br /><br /> <strong>Whorl:</strong> Eunica Escalante<br /><br /> <strong>Wisdom of the East:</strong> Shannon Manamtam<br /><br />			<strong>Yatomi:</strong> Eunica Escalante<br /><br /> <strong>Additional imagery:</strong> Courtesy of University of Hawai‘i Archives, through its Digital and Digitized Collections<br /><br /> <strong>Additional photography:</strong> Godwin Polendey and Jessica Homrich<br /><br /> <strong>Additional reporting:</strong> Jessica Homrich<br /><br /> <strong>Additional sources:</strong> The University of Hawai‘i\'s Campus Art brochure, its Campus Heritage Report, and "Building a Rainbow," edited by Victor Kobayashi<br />Waikiki mural photos: https://commons.wikimedia.org/wiki/File:Waikiki,_Honolulu_(Forty_Years_On_the_Pacifi c).png) and https://commons.wikimedia.org/wiki/File:Diamond_Head_Hawaii_-_panoramio.jpg.<br><br /> <strong>Mobile design and development:</strong> Montana Banana Web and Mobile Development, https://montanab.com/<br /><br /><strong>Project sponsor:</strong> Malama Manoa (2015-2016, $2,000; 2016-2017, $2,000; 2018-2019, $2,000)' }, 
+		{ image: 'https://api.montanab.com/ManoaPublicArt/images/our_story/O1.png', description: '<small><i>Associate Professor Brett Oppegaard, right, working with graduate students near the Founders’ Gate at UH Manoa in the fall of 2015. The mobile story about the gate, created that semester in the Com 691 class, became one of the first interactive experiences in the Manoa Public Art project. Students have been contributing new work to this project every year since.</i></small><br /><h2>&nbsp;&nbsp;About this project</h2> <p>The Manoa Public Art project began as a class experiment, supported by the local organization Malama Manoa, and since has grown into an expansive effort to chronicle the stories of public artwork in this Honolulu neighborhood, which includes the flagship University of Hawai‘i campus. <br><br>Hawai‘i was the first state in the country to adopt a "Percent for Art" program, requiring at least 1 percent of all money going toward public construction projects to be spent on public art. The Manoa neighborhood, and the University of Hawai‘i at Manoa, in particular, has been a major beneficiary of this law. This mobile app, in turn, is dedicated to promoting public discourse about the public art in this place.</p> <br><h2>&nbsp;&nbsp;Credits</h2><p><strong>Principal Investigator:</strong> Dr. Brett Oppegaard (School of Communications, University of Hawai‘i, brett.oppegaard@hawaii.edu)<br /><br /> <strong>Contributors</strong> <strong>Adam:</strong> Katie Boon<br /><br /> <strong>Air:</strong> Kapiolani Ching and Godwin Polendey<br /><br /><strong>Air Force ROTC:</strong> Winlove Almazan <br/><br/><strong>Alae A Hina:</strong> Eunica Escalante<br /><br /> <strong>Anuenue #2:</strong> Katie Boon<br /><br /> <strong>Arctic Portals:</strong> Eunica Escalante<br /><br /> <strong>Bachman Hall:</strong> Ivy Martin<br /><br /> <strong>Backyard Cooking:</strong> Katie Boon<br /><br /> <strong>Birthday Party Guests:</strong> Shannon Manamtam<br /><br /> <strong>Bobby Puts Frozen Peas on Poochie’s Head:</strong> Shannon Manamtam<br /><br /> <strong>Bridge, Bridge:</strong> Katie Boon<br /><br /> <strong>Calligraphy:</strong> Eunica Escalante<br /><br /> <strong>Candy Mural:</strong> Katie Boon<br /><br /> <strong>Chance Meeting:</strong> Tracy Kim<br /><br /> <strong>Chinese Soldier:</strong> Katie Boon<br /><br /> <strong>Chinese Zodiacs:</strong> Laura Young<br><br><strong>Commencement:</strong> Katie Boon<br /><br /> <strong>Defining Moment:</strong> Katie Boon<br /><br /> <strong>Divers:</strong> Eunica Escalante<br /><br /> <strong>Diverse:</strong> Eunica Escalante<br /><br /> <strong>Earth:</strong> Kapiolani Ching and Godwin Polendey<br /><br /> <strong>Epitaph:</strong> Tracy Kim<br /><br /> <strong>Fallen Warrior:</strong> Aven Santiago<br /><br /> <strong>Fire:</strong> Kapiolani Ching and Godwin Polendey<br /><br /> <strong>Flight to the Sun:</strong> Katie Boon<br /><br /> <strong>Founders’ Gate:</strong> Marc Arakaki<br /><br /> <strong>Fourth Sign:</strong> Katie Boon<br /><br /> <strong>Frear Hall murals:</strong> Andreas Miguel<br><br><strong>Fu Dogs:</strong> Shannon Manamtam<br /><br /> <strong>Gate of Hope:</strong> Brett Oppegaard<br /><br /><strong>Gathering of Chiefs:</strong> Jacob Hensley<br><br> <strong>Gidayu Poster:</strong> Eunica Escalante<br /><br /> <strong>Hale Manoa:</strong> Ivy Martin<br /><br /> <strong>Hawai‘i Ka‘u Kumu:</strong> Nicole Tam<br /><br /> <strong>Hina-O Nalani:</strong> Tracy Kim<br /><br /> <strong>Hula:</strong> Tracy Kim<br /><br /> <strong>Imperial Vase:</strong> Eunica Escalante<br /><br /> <strong>Jefferson Hall:</strong> Ivy Martin<br /><br /> <strong>John F. Kennedy Theatre:</strong> Ivy Martin<br /><br /><strong>Ka Punahou:</strong> Melissa Tiogangco<br><br> <strong>Kahuna with Sacred Stone:</strong> Eunica Escalante<br /><br /> <strong>Kanewai Lo‘i:</strong> Kaainoa Fernandez<br /><br /> <strong>Keller Hall:</strong> Ivy Martin<br /><br /> <strong>Korean Center:</strong> Brett Oppegaard<br /><br />	<strong>Kumulipo:</strong> Glenn Ugalde<br><br>	<strong>Krypton:</strong> Shannon Manamtam<br /><br /> <strong>Lincoln Hall:</strong> Ivy Martin<br /><br /> <strong>Maka \'a e \'Ike Aku i ke Awawa Uluwehi i na. Kuahiwi o Manoa:</strong> Eunica Escalante and Shannon Manamtam<br /><br /> <strong>Maka‘lo or Hawk’s Eye:</strong> Brandon Rivera<br /><br /> <strong>Makahiki Ho‘okupu:</strong> Bronson Doria<br /><br /> <strong>Man and Nature:</strong> Chanel Dias<br /><br /> <strong>Mana o\'i\'o:</strong> Tracy Kim<br /><br /> <strong>Maori Female:</strong> Eunica Escalante<br /><br /> <strong>Mayan Warrior:</strong> Leslie Betancourt<br><br> <strong>Mind and Heart:</strong> Tracy Kim<br /><br /><strong>Moore Hall:</strong> Ivy Martin<br /><br /> <strong>Nana I Ke Kumu:</strong> Katie Boon<br /><br /> <strong>Natoma:</strong> Eunica Escalante<br /><br /> <strong>Neumes o Hawaii:</strong> Tracy Kim<br /><br /> <strong>Night:</strong> Shannon Manamtam<br /><br /> <strong>Night Hula:</strong> Brett Oppegaard<br /><br /> <strong>Pakipika:</strong> Eunica Escalante<br /><br /> <strong>Peace Garden:</strong> Eunica Escalante<br /><br /> <strong>Peace Memorial:</strong> Eunica Escalante<br /><br /> <strong>Peace Pole:</strong> Eunica Escalante<br /><br /> <strong>Pepper Dog Lovingly Chews on Bobby Cat While:</strong> Shannon Manamtam<br /><br />	<strong>Pigeon:</strong> Katie Boon<br /><br /> <strong>Pulelehua:</strong> Brett Oppegaard<br /><br /> <strong>Rainbow Spirit:</strong> Tracy Kim, Ashley Gomez<br /><br /> <strong>Rainbows:</strong> Harrison Patino<br /><br /> <strong>Rain’s Reflections:</strong> Katie Boon<br /><br /> <strong>Rosarito:</strong> Tracy Kim<br /><br /> <strong>Ryu:</strong> Eunica Escalante<br /><br /><strong>Saunders Hall:</strong> Ivy Martin<br /><br /> <strong>Seated Amida Buddha:</strong> Tracy Kim<br /><br /> <strong>Shinto Dogs:</strong> Tracy Kim<br /><br /> <strong>Shwe Gyi Do:</strong> Eunica Escalante<br /><br /><strong>Sinclair Library:</strong> Ivy Martin<br /><br /><strong>Snyder Hall:</strong> Ivy Martin<br /><br /> <strong>Spirit of Loyalty:</strong> Tracy Kim<br /><br /> <strong>Spirit of Manoa:</strong> Tracy Kim and Brett Oppegaard<br /><br /><strong>Stevenson hut:</strong> Anna Barrett<br><br> <strong>Sumo Wrestler:</strong> Tracy Kim<br /><br /> <strong>Swimmers’ Quilt:</strong> Shannon Manamtam<br /><br /> <strong>Tea House:</strong> Eunica Escalante<br /><br /> <strong>Thai Pavilion:</strong> Eunica Escalante<br /><br /> <strong>Thomas Hale Hamilton:</strong> Shannon Manamtam<br /><br /> <strong>Tickets Home:</strong> Shannon Manamtam<br /><br /> <strong>To Help with a Migraine:</strong> Shannon Manamtam<br /><br /> <strong>To the Nth Power:</strong> Tracy Kim<br /><br /> <strong>Untitled Acrylic:</strong> Katie Boon<br /><br /> <strong>Untitled Bronze:</strong> Tracy Kim<br /><br /> <strong>Untitled Ceramic:</strong> Katie Boon<br /><br /> <strong>Untitled Hawaiian Studies:</strong> Eunica Escalante<br /><br /> <strong>Untitled Stained Glass:</strong> Katie Boon<br /><br /> <strong>Varney Circle Fountain:</strong> Mari Galiher, Cynthia Arata, and Jim Bea Ildefonso Sampaga<br /><br /> <strong>VVV:</strong> Tracy Kim<br /><br /> <strong>Wa:</strong> Katie Boon<br /><br /> <strong>Waikiki murals:</strong> Ivy Martin<br><br><strong>Wallhanging:</strong> Shannon Manamtam<br /><br /> <strong>Water:</strong> Kapiolani Ching and Godwin Polendey<br /><br /> <strong>Water Garden:</strong> Katie Boon<br /><br /> <strong>Whorl:</strong> Eunica Escalante<br /><br /> <strong>Wisdom of the East:</strong> Shannon Manamtam<br /><br />			<strong>Yatomi:</strong> Eunica Escalante<br /><br /> <strong>Additional imagery:</strong> Courtesy of University of Hawai‘i Archives, through its Digital and Digitized Collections<br /><br /> <strong>Additional photography:</strong> Godwin Polendey and Jessica Homrich<br /><br /> <strong>Additional reporting:</strong> Jessica Homrich<br /><br /> <strong>Additional sources:</strong> The University of Hawai‘i\'s Campus Art brochure, its Campus Heritage Report, and "Building a Rainbow," edited by Victor Kobayashi<br />Waikiki mural photos: https://commons.wikimedia.org/wiki/File:Waikiki,_Honolulu_(Forty_Years_On_the_Pacifi c).png) and https://commons.wikimedia.org/wiki/File:Diamond_Head_Hawaii_-_panoramio.jpg.<br><br /> <strong>Mobile design and development:</strong> Montana Banana Web and Mobile Development, https://montanab.com/<br /><br /><strong>Project sponsor:</strong> Malama Manoa (2015-2016, $2,000; 2016-2017, $2,000; 2018-2019, $2,000)' }, 
     ],
     location: 		'Go to UH Manoa’s campus',
     sharing: 		'',
