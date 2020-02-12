@@ -2156,8 +2156,8 @@ pathContent['kennedy'] = {
     ],
     location: 		'',
     sharing: 		'Share your story',
-    thumbnail: 		'images/keller/thumbnail.jpg',
-    centerpiece: 	'images/keller/thumbnail.jpg',
+    thumbnail: 		'images/kennedy/thumbnail.jpg',
+    centerpiece: 	'images/kennedy/thumbnail.jpg',
     geo_location: 	'21.2997, -157.8149', 
     lat: 			21.2997,
     lon: 		    -157.8149
