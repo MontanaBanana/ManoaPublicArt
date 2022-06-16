@@ -1,0 +1,7 @@
+{
+    "name": "Manoa",
+    "type": "custom",
+    "integrations": {
+      "cordova": {}
+    }
+  }
