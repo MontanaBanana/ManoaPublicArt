@@ -1,3 +1,4 @@
+# DEPRECATED - use v2.ManoaPublicArt repo instead.
 # A Blank PhoneGap App
 
 ## Usage
